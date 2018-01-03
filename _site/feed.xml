@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-03T03:43:14+03:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Hello World!</title><link href="http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F/2018/01/03/hello-world.html" rel="alternate" type="text/html" title="Hello World!" /><published>2018-01-03T03:00:00+03:00</published><updated>2018-01-03T03:00:00+03:00</updated><id>http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F/2018/01/03/hello-world</id><content type="html" xml:base="http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F/2018/01/03/hello-world.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Привет мир!</title><link href="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Привет мир!" /><published>2018-01-02T02:14:11+03:00</published><updated>2018-01-02T02:14:11+03:00</updated><id>http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/02/welcome-to-jekyll.html">&lt;p&gt;Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.&lt;/p&gt;
+
+&lt;p&gt;Вы когда-нибудь задумывались над тем на сколько скорость набора текста/кода влияет на вашу производительность? На сколько знание hotkeys реально делает взаимодействие с Вашим компьютером быстрее? Пробовали ли Вы полностью отказаться от использования мыши?&lt;/p&gt;
+
+&lt;p&gt;Вопросы на первый взгляд очень скучные, но, однако, позвольте Вас сразу прервать. На данный момент я набираю текст со скоростью примерно в 200-220 символов в минуту используя метод слепой печати. Предположим, что данная статья будет состоять из 10000 символов, значит на то чтобы написать её у меня уедет 50 минут. Это и без того довольно много времени с учетом того что текс еще нужно перечитать перед публикацией, внести правки, проверить ошибки итд. В условиях нынешних реалий приходится постоянно куда-то спешить и вот так просто тратить каждый день по несколько часов на то чтобы выражать свои мысли непозволительная роскошь. А если Вы программист и не умеете печатать в слепую, у меня для Вас плохие новости. Неумение выжимать из своего компьютера максимум для программиста просто первый признак того что Вы не желаете стать профессионалом в пользовании компьютером и в разработке ПО.&lt;/p&gt;
+
+&lt;p&gt;Представим, что у Вас есть пример реализации кода строчек так примерно на 1000. С учетом всех изменений и непрерывного написания программы без использования метода слепой печати у Вас может уйти слишком много времени на написание простого кода. Ну например вы создаете класс в котором 20 полей, 5 конструкторов, 2 публичных и 10 приватных методов. Вы набираете методы пальчиками? Еще и смотря на клавиатуру? Плохо… Неэффективно… Уволить!&lt;/p&gt;
+
+&lt;p&gt;Я сам пишу программы на языке C# используя IDE Rider 2017.3 (на 03.01.2018). и использование как hotkeys так и сниппетов для автоматической генерации кода значительно упрощает жизнь. Сниппеты подбираются и настраиваются индивидуально под Вот самые &lt;code class=&quot;highlighter-rouge&quot;&gt;часто используемые hotkeys&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-hotkeys&quot; data-lang=&quot;hotkeys&quot;&gt;Shift+Alt+ArrowUp/ArrowDown - позволяет перемещать строки кода, которые находятся на строке где стоит курсор вверх вниз по коду
+Ctrl + Q - быстрая документация 
+Ctrl + N - быстрый поиск по всей IDE (Google внутри IDE)
+Ctrl + L - удалить сроку на которой расположен курсор
+Ctrl + H - замена текста в локальном файле, который в данный момент открыт в IDE
+Ctrl + Shift + H - замена текста во всем проекте
+Ctrl + Ctrl + ArrowUp/ArrowDown (двойное нажатие на CTRL) - режим иультикурсора, который позволяет &quot;разможить&quot; курсор сразу на несколько строк
+Ctrl + W - интелектуальное выделение слов
+Crtl + F - поиск слов 
+Crtl + . - закомментировать/раскомментировать код
+F2 - переименовать переменную, класс, метод, интерфейс итд
+Ctrl+  Shift + R - удобная менюшка для быстрого рефакторинга кода
+F5 - запуск программы в режиме Debug
+Ctrl + F5 - запуск программы в режиме Run
+Ctrl + Shift + F5 - остановка выполения программы
+Alt + 1 - вкладка с проектом
+Alt + 2 - список закладок и точек останова
+Alt + 3 - окошко Find usages (найти использование)
+Alt + 8 - окошко UnitTests
+Ctrl + tab - перключение между вклаками 
+Ctrl+K - коммит
+Ctrl + T,R - запустить UnitTest&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Если вообще не понятно о чем вообще идет речь, то вот подробнейшая инструкция с чего стоит начать&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Инструкция:&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Переходите по ссылке и скачиваете &lt;a href=&quot;https://yadi.sk/d/KyT2iMtO3RAYSx&quot;&gt;Stamina&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Начинаете уроки. По порядку никуда не спеша.&lt;/li&gt;
+  &lt;li&gt;Повторяете 2 пункт раза 3-7 в неделю.&lt;/li&gt;
+  &lt;li&gt;Через месяц получаете профит.&lt;/li&gt;
+  &lt;li&gt;Через 2 месяца активное тренировки скорость печати вырастает до 200-250 символов в минуту&lt;/li&gt;
+  &lt;li&gt;Через пол года до 300-350&lt;/li&gt;
+  &lt;li&gt;Предела нет, продолжай совершенствоваться, чем быстрее печатаешь, тем лучше.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Если вы любите посидеть и попереписываться в VK, Telegram, Facebook и подобном, то увеличив скорость набора текста получится не только больше писать и всегда иметь преимущество перед человеком, который набирает текст медленнее Вас (например, в жарком споре, когда пишутся огромные серенады), но и экономить кучу времени переключаясь между задачами. Когда Вам нужно просто быстро ответить с минимальными затратами по времени чтобы не потерять концентрацию.&lt;/p&gt;
+
+&lt;p&gt;Спасибо за внимание!&lt;/p&gt;</content><author><name></name></author><summary type="html">Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.</summary></entry></feed>
