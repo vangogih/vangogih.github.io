@@ -58,5 +58,20 @@ Ctrl + T,R - запустить UnitTest
 [Stamina]: https://yadi.sk/d/KyT2iMtO3RAYSx
 
 {% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
 
+var disqus_config = function () {
+this.page.url = https://vangogih.github.io/;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = /jekyll/update/2018/01/03/hello-world.html; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-vangogih-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
