@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Проба пера. Слепая печать."
 date:   2018-01-03 04:24:17 +0300
 categories: jekyll update
@@ -55,3 +56,7 @@ Ctrl + T,R - запустить UnitTest
 Спасибо за внимание!
 
 [Stamina]: https://yadi.sk/d/KyT2iMtO3RAYSx
+
+{% if page.comments %}
+
+{% endif %}
