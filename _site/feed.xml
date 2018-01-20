@@ -1,8 +1,705 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-04T03:21:17+03:00</updated><id>http://localhost:4000/</id><title type="html">Блог Маслёнка</title><subtitle>Копирование и использование любой информации разрешено с обязательным указанием ссылки на ресурс. НО оповестите автора о том</subtitle><entry><title type="html">Проба пера. Слепая печать.</title><link href="http://localhost:4000/jekyll/update/2018/01/03/hello-world.html" rel="alternate" type="text/html" title="Проба пера. Слепая печать." /><published>2018-01-03T04:24:17+03:00</published><updated>2018-01-03T04:24:17+03:00</updated><id>http://localhost:4000/jekyll/update/2018/01/03/hello-world</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/03/hello-world.html">&lt;p&gt;Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-20T18:05:37+03:00</updated><id>http://localhost:4000/</id><title type="html">Блог Маслёнка</title><subtitle>Копирование и использование любой информации разрешено с обязательным указанием ссылки на ресурс. НО оповестите автора о этом</subtitle><entry><title type="html">Unity3D Урок №1. Игровые объекты и скрипты</title><link href="http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html" rel="alternate" type="text/html" title="Unity3D Урок №1. Игровые объекты и скрипты" /><published>2018-01-17T19:00:00+03:00</published><updated>2018-01-17T19:00:00+03:00</updated><id>http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html">&lt;p&gt;Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D.&lt;/p&gt;
+
+&lt;p&gt;Перейдя на его сайт Вы сможете ознакомиться с его статьями в оригинале. Я не прошу и не буду просить денег за свою работу, но если Вы разделяете мое мнение насчет годности контента этого талантливейшего разработчика, то Вы можете отблагодарить его за работу просто присоединивших к платформе Patreon и указать сумму ежемесячного взноса, либо же сделать единовременно пожертвование. В каждой переведенной мною статье я буду напоминать о том, что можно отблагодарить этого человека.&lt;/p&gt;
+
+&lt;p&gt;Ссылка на его блог: &lt;a href=&quot;http://catlikecoding.com/&quot;&gt;http://catlikecoding.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ссылка где можно отблагодарить: &lt;a href=&quot;https://www.patreon.com/catlikecoding&quot;&gt;https://www.patreon.com/catlikecoding&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Вот что пишет автор на странице &lt;a href=&quot;https://www.patreon.com/catlikecoding&quot;&gt;https://www.patreon.com/catlikecoding&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Привет! Я Jasper Flick с сайта Catlike Coding.
+Я делаю высококачественные уроки, которые позволят Вам узнать все о программировании с использованием языка C# в Unity. Мои уроки поданы в текстовом формате потому что считаю, что текст — это лучшее средство для данной тематики (для раскрытия данной темы). Так же они содержат набольшие вставки (картинки, анимации) которые, как я считаю, добавляют ценности.&lt;/p&gt;
+
+&lt;p&gt;Я в Patreon с Мая 2014 года и в настоящее время выпускаю по 2 урока в месяц. Сейчас я работаю над двумя разделами, шестиугольная карта (Hex Map) и рендеринг (Rendering).&lt;/p&gt;
+
+&lt;p&gt;Создание таких уроков отнимает очень много времени. Время, которое мне в основном приходится тратить на то чтобы не остаться голодным и т.п. Ваша поддержка — значит то, что я могу тратить больше времени на создание уроков, что улучшает их качество и количество.
+Используйте Patreon для того чтобы сделать залог некоторой суммы денег, которую вы бы хотели дать мне, как спасибо за каждый новый урок. Нет пожертвований, нет уроков. Как бы плати сколько хочешь, но перед этим сказав сколько именно ты хочешь заплатить. Вы можете заранее выбрать одну из сумм залога или установить собственную. Не волнуйтесь, вы можете в любой момент изменить свою сумму, а также установить месячный лимит.&lt;/p&gt;
+
+&lt;p&gt;Не хотите заморачиваться с Patreon? Всегда можно сделать единовременное &lt;a href=&quot;http://catlikecoding.com/unity/tutorials/donating.html&quot;&gt;пожертвование&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Это было не большое вступление, а теперь занавес, мы начинаем.&lt;/p&gt;
+
+&lt;h2 id=&quot;Игровые-объекты-и-скрипты-Создание-часов&quot;&gt;&lt;strong&gt;Игровые объекты и скрипты. Создание часов&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Создадим часы из простых объектов&lt;/li&gt;
+  &lt;li&gt;Напишем скрипты на C#&lt;/li&gt;
+  &lt;li&gt;Заставим стрелки часов вращаться для отображения времени&lt;/li&gt;
+  &lt;li&gt;Добавим плавности&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;В этом уроке мы создадим простые часы и запрограммируем их так чтобы они отображали время. Вам нужны будут только минимальные знания о редакторе Unity. Если вы до этого хотя бы пару минут игрались с Unity и знаете, как работать с окном &lt;em&gt;Scene&lt;/em&gt;, то этого будет достаточно.&lt;/p&gt;
+
+&lt;p&gt;Данный урок сделан с использованием Unity версии 2017.1.0.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\tutorial-image.jpg&quot; alt=&quot;Пришло время создать часы&quot; /&gt;
+&lt;em&gt;&lt;center&gt;Пришло время создать часы&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-Создадим-часы&quot;&gt;&lt;strong&gt;1. Создадим часы&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Откройте Unity и создайте новый 3D проект. Вам не понадобятся какие-либо уникальные ассеты с готовыми компонентами, аналитика вам тоже не понадобится, потому ее можно просто отключить. Если вы еще не настроили редактор, то у Вас будет установлено расположение окон по умолчанию.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\default-layout.png&quot; alt=&quot;_Вариант расположения окон по умолчанию_&quot; /&gt;
+&lt;em&gt;&lt;center&gt;Вариант расположения окон по умолчанию&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Я использую другой вариант 2 к 3 (2 by 3) который вы можете выбрать в правом верхнем углу редактора. Изменим не много окно &lt;em&gt;Project&lt;/em&gt; нажав на кнопку в правом верхнем углу и в выпадающем меню выбрав &lt;em&gt;One Column Layout&lt;/em&gt;. Так же советую отключить показ координатной сетки &lt;em&gt;Show Grid&lt;/em&gt; во вкладке &lt;em&gt;Scene&lt;/em&gt;. Этот пункт можно найти в выпадающем меню на вкладке &lt;em&gt;Scene&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\2-by-3.png&quot; alt=&quot;_Измененное расположение окон_&quot; /&gt;
+&lt;em&gt;&lt;center&gt;Измененное расположение окон&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Почему окно с игрой маленькое и черными границами по краям?&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Такое может произойти есть вы используете монитор с большим разрешением и с нестандартным соотношением сторон. Для того чтобы избавиться от этого стоит на вкладке Game нажать на кнопку, которая находится рядом с Display 1. В выпавшем меню нужно убрать галку &lt;em&gt;Low Resolution Aspect Ratios&lt;/em&gt; и установить &lt;em&gt;Free Aspect&lt;/em&gt;.&lt;/p&gt;
+
+  &lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\low-resolution-aspect-ratios.png&quot; width=&quot;300px&quot; /&gt;&lt;/center&gt;
+
+  &lt;p&gt;&lt;em&gt;&lt;center&gt;Low resolution aspect ratios отключена&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;11-Создадим-игровой-объект-game-object&quot;&gt;&lt;strong&gt;1.1 Создадим игровой объект (Game Object)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;По умолчанию в сцене присутствуют 2 игровых объекта. Эти объекты находятся во вкладке Hierarchy и именно их иконки вы можете наблюдать во вкладке Scene. Первое это &lt;em&gt;Main Camera&lt;/em&gt;, используется для отображения всех объектов на сцене. Окно &lt;em&gt;Game&lt;/em&gt; отображается все что попадает в поле зрения камеры. Второй это &lt;em&gt;Directional Light&lt;/em&gt; этот компонент добавляет базовый свет на сцену (он как солнце освещает всю сцену равномерно из одной точки).&lt;/p&gt;
+
+&lt;p&gt;Создадим собственный игровой объект выбрав в строке меню &lt;em&gt;GameObject / CreateEmpty&lt;/em&gt;. Так же подобное вы можете сделать просто, нажав правой клавишей мыши на свободное место в окне &lt;em&gt;Hierarchy&lt;/em&gt;. Давайте дадим только что добавленному объекту имя, для этого нажмите ПКМ на только что добавленном объекте и выберете &lt;em&gt;Rename&lt;/em&gt;. Поскольку мы создаем часы, то назовем объект соответствующе - &lt;em&gt;Clock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hierarchy.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Вкладка Hierarchy с объектом Clock&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Познакомимся с окном Inspector. В этом окне отображаются компоненты, которые есть у нашего игрового объекта. При выборе нашего объекта &lt;em&gt;Clock&lt;/em&gt; он будет содержать заголовок с именем объекта и параметрами конфигурации. По умолчанию объект включен, не является статическим, не имеет тега и принадлежит слою &lt;em&gt;Default&lt;/em&gt;. Эти настройки отлично подойдут нам. Ниже приведен список всех компонентов игрового объекта. На любом созданном объекте всегда присутствует компонент &lt;em&gt;Transform&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\inspector.png&quot; width=&quot;450px&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Вкладка Inspector с выбранными часами&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Компонент &lt;em&gt;Transform&lt;/em&gt; хранит в себе позицию, углы поворота, масштаб в 3D пространстве. Убедитесь, что координаты и угол поворота у наших часов равен 0, а масштаб 1.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Что насчет 2D объектов?&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;При работе в 2D вместо 3D игнорируется одно из трех измерений. Объекты, специально предназначенные для 2D-подобных элементов пользовательского интерфейса, обычно имеют &lt;em&gt;Rect Transform&lt;/em&gt;, который является специализированным компонентом &lt;em&gt;Transform&lt;/em&gt; для 2D объектов.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;12-Создадим-основу-для-часов&quot;&gt;&lt;strong&gt;1.2 Создадим основу для часов.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Хоть у нас и есть объект часы, на сцене мы не видим ничего. Хорошо, давайте добавим на сцену 3D модель, которая будет отображаться на нашей сцене. В Unity «из под коробки» есть несколько примитивных объектов, которые мы можем использовать для того чтобы создать наши часы. Давайте начнем. Добавим на нашу сцену цилиндр нажав на &lt;em&gt;GameObject/3DObject/Cylinder&lt;/em&gt;.  Убедитесь что он имеет те же значения Transform что и объект &lt;em&gt;Clock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\cylinder.png&quot; width=&quot;170&quot; height=&quot;160&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\cylinder-inspector.png&quot; width=&quot;320&quot; height=&quot;229&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Игровой объект, представляющий собой цилиндр&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Наш только что добавленный объект имеет несколько незнакомых нам компонентов. Первый это &lt;em&gt;Mesh Filter&lt;/em&gt;, этот компонент просто содержит в себе ссылку на &lt;em&gt;Mesh (сетку)&lt;/em&gt; цилиндра. Второй это &lt;em&gt;Capsule Collider&lt;/em&gt;, который предназначен для взаимодействия объектов. Без этого компонента все объекты будут просто проходить насквозь друг через друга и никак не взаимодействовать между собой. Третий компонент это &lt;em&gt;Mesh Renderer&lt;/em&gt;. Этот компонент обеспечивает визуализацию нашего объекта, путем наложения текстуры на сетку.  Он так же контролирует какой материал вы используете для отрисовки, по умолчанию устанавливается &lt;em&gt;Default-Material&lt;/em&gt;, но вы всегда можете его изменить в соответствующем компоненте, который расположен ниже &lt;em&gt;Mesh Renderer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если вы уже успели покликать по нашему объекту, то вы наверняка заметили, что наш объект представляет собой цилиндр, а вот коллайдер у нас имеет форму капсулы. Так произошло потому что в Unity нет готового компонента с коллайдером в форме цилиндра. Но собственно нас это не волнует, потому просто удалим этот компонент. Если же вам вдруг понадобится сделать коллайдер именно у цилиндра или у другого объекта, форма которого более сложная, то воспользуйтесь компонентом &lt;em&gt;Mesh Collider&lt;/em&gt;. Компоненты можно удалить с помощью выпадающего меню со знаком шестеренки в правом верхнем углу.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\cylinder-no-collider.png&quot; width=&quot;450&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Наш объект без коллайдера&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Для того чтобы превратить наш цилиндр в нечто похожее на часы, необходимо сделать циферблат, путем сплющивания нашего цилиндра. Это делается уменьшением значения &lt;em&gt;Scale&lt;/em&gt; по оси Y до 0,1, а X, Z увеличением на 10.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\cylinder-scaled-scene.png&quot; width=&quot;230&quot; height=&quot;170&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\cylinder-scaled-inspector.png&quot; width=&quot;320&quot; height=&quot;76&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Растянутый цилиндр&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Изменим имя нашего цилиндра на &lt;em&gt;Face&lt;/em&gt;. Поскольку сделанный нами циферблат является частью часов, то укажем это в иерархии. Для этого переместим наш &lt;em&gt;Face&lt;/em&gt; на объект &lt;em&gt;Clock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\child-object.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Face является дочерним к объекту Clock.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Дочерние объекты копируют преобразования родительского объекта. Это значит, что если мы изменим положение часов, то положение циферблата изменится вместе с ним, как будто они стали единым целым. Тоже самое касается вращения и масштаба. Это можно использовать для создания сложных иерархий объектов.&lt;/p&gt;
+
+&lt;h3 id=&quot;13-Создание-циферблата&quot;&gt;&lt;strong&gt;1.3 Создание циферблата&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Теперь сделаем градуировку на нашем циферблате, по которой можно будет ориентироваться во времени или по-другому контур часов. 
+Добавим объект Куб на сцену кликнув &lt;em&gt;GameObject / 3D Object / Cube&lt;/em&gt;. Изменим масштаб на &lt;em&gt;(0.5, 0.2, 1)&lt;/em&gt; сделав его длинным узким блоком похожий на брусок. Установим ему позицию &lt;em&gt;(0, 0.2, 4)&lt;/em&gt;. Это положение соответствует 12 часам. Назовите его &lt;em&gt;Hour Indicator&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\indicator-scene.png&quot; width=&quot;300&quot; height=&quot;214&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\indicator-inspector.png&quot; width=&quot;320&quot; height=&quot;229&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Отметка 12 часов&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Пока нашу отметку очень сложно увидеть, потому что она сливается с циферблатом. Для того чтобы изменить текущее положение дел нужно нажать &lt;em&gt;Assets / Create / Material&lt;/em&gt; и создать новый материал или сделать аналогичные действия в окне &lt;em&gt;Project&lt;/em&gt;. Это создаст нам материал, который дублирует материал по умолчанию. Изменим &lt;em&gt;Albedo&lt;/em&gt; на что-то более темное, установив значение 73 для красного, зеленого и синего. В результате мы получим темно-серый материал. Давайте дадим ему соответствующее имя – &lt;em&gt;Clock dark&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\dark-material.png&quot; width=&quot;556&quot; height=&quot;130&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\color-popup.png&quot; width=&quot;220&quot; height=&quot;356&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Темный материал и всплывающее окно с выбором цвета&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Что за альбедо такое?&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;Альбедо происходит от латинского слова белизна. Это просто цвет материала.&lt;/p&gt;
+
+  &lt;p&gt;Прим. От переводчика: как бы по факту это не совсем так. Почему назвали именно альбедо, а не просто цвет сложно сказать, но Вы можете почитать сами и внести ясности в данный вопрос&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Перетащите этот материал на нашу 12 часовую отметку или просто переместите наш материал в ячейку &lt;em&gt;Element 0&lt;/em&gt; компонента &lt;em&gt;Mesh Renderer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\dark-indicator.png&quot; width=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Отметка 12 часов темно-серого цвета&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Наша отметка корректно показывает 12 часов, но что если мы хотим показать 1 час на часах? Все 12 часов располагаются на круге 360°, разделив 360° на 12 отметок получим 30°. Получается, что каждую отметку нам нужно будет поворачивать на 30° по оси Y. Давайте сделаем это.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\rotated-scene.png&quot; width=&quot;250&quot; height=&quot;188&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\rotated-inspector.png&quot; width=&quot;320&quot; height=&quot;76&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Повернутая часовая отметка, но неправильно расположенная&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Наша отметка повернута на правильный угол, но расположена она все еще на позиции 12 часовой отметки. Это произошло потому мы вращали объект относительно его собственное локальной исходной точки, которая является его положением в пространстве.&lt;/p&gt;
+
+&lt;p&gt;Мы должны переместить отметку вдоль кромки циферблата так чтобы наша отметка занимала положение часовой отметки. Вместо того чтобы высчитывать вручную положение в пространстве каждой отметки мы можем использовать иерархию объектов. Для начала сбросьте параметр поворота у нашей отметки (измените его на 0).  Затем создайте новый пустой объект с координатами, поворотом равными 0 и масштабом равным 1. Сделайте нашу отметку дочерней к пустому только что созданному объекту.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\temporary-parent.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Временный родитель&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь установим у родителя значение поворота по оси Y равное 30°. Таким образом наша отметка будет вращаться вокруг пустого объекта родителя, а это именно то что нам нужно.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\rotated-correct.png&quot; width=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Правильное положение часовой отметки&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Продублируйте нашего временного родителя используя сочетанием клавиш &lt;em&gt;Ctrl+D&lt;/em&gt; или воспользовавшись контекстным меню во вкладке &lt;em&gt;hierarchy&lt;/em&gt;. В каждом дубликате увеличьте значение поворота по оси Y на 30°. Сделайте подобным образом все 12 отметок.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\12-hour-indicators.png&quot; width=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Циферблат со всеми часовыми отметками&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Нам больше не понадобятся временные родители. Выберите все отметки часов использовав &lt;em&gt;Ctrl+ЛКМ&lt;/em&gt; и сделайте их дочерними к нашим часам. Теперь объясню, как такое получилось. Если перед тем как сделать объект дочерним к часам вы посмотрите на компонент &lt;em&gt;Transform&lt;/em&gt; у отметки, то вы заметите что у всех объектов одинаковое значения как координат, так и углов поворота. А после того как вы поменяете у него родителя, то эта значения изменятся. Это произошла трансформация из локальной системы координат в глобальную. Раньше наши отметки получали координаты и угол поворота от временного родителя, сейчас же их координаты преобразовались в локальные координаты для объекта &lt;em&gt;Clock&lt;/em&gt; сохранив углы поворота.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\periphery-children.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Получившаяся иерархия&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;У меня значения координат равно 90,0000001. Это правильно?&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;Это произошло потому что координаты, углы поворота и масштаб являются числами с плавающей точкой (float). Этот тип переменных имеет ограниченную точность, потому может вызвать незначительные отклонения, связанные с округлением. Переживать по этому поводу не стоит, поскольку отклонение 0,0000001 настолько мало что не оказывает никакого заметного влияния.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;14-Создадим-стрелки-часов&quot;&gt;&lt;strong&gt;1.4 Создадим стрелки часов&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Мы можем использовать тот же подход чтобы создать стрелки часов. Создайте новый куб и назовите его Arm, сразу перетяните на него созданный нами материал и удалите коллайдер. Установите масштаб равный &lt;em&gt;(0.3, 0.2, 2.5)&lt;/em&gt; таким образом сделав его уже и длиннее чем наша отметка. Установите координаты &lt;em&gt;(0, 0.2, 0.75)&lt;/em&gt; при такой установке стрелка будет направлена в сторону 12 часов, а другая сторона стрелки будет не много смещена относительно центра часов. Со стороны это выглядит как не большой противовес.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-arm-scene.png&quot; width=&quot;250&quot; height=&quot;200&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-arm-inspector.png&quot; width=&quot;320&quot; height=&quot;229&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часовая стрелка&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Куда делась иконка с солнцем?&lt;/p&gt;
+
+  &lt;p&gt;Я переместил свет не много в сторону чтобы он больше не загромождал сцену. Directional Light освещается сцену равномерно независимо от его положения.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Чтобы заставить нашу стрелку правильно вращаться, создайте родительский пустой объект для него по аналогии с отметками. Убедитесь, что родитель имеет координаты и углы поворота равные 0, а масштаб равный 1. Проверить необходимо, потому что вращать стрелку мы будет чуть позже. Сделайте стрелку дочерним к пустому объекту, назовите родительский объект Hours Arm, после сделайте его дочерним к часам. Теперь стрелка является как бы «внуком» часов.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-arm-hierarchy.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Колонка hierarchy после всех действий&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Продублируйте Hours Arm дважды для создания минутной и секундной стрелки. Переименуйте их в &lt;em&gt;Minutes Arm&lt;/em&gt; и &lt;em&gt;Seconds Arm&lt;/em&gt; соответственно. Минутная стрелка должная быть длиннее и уже, чем часовая, для этого проставим значения масштаба равные &lt;em&gt;(0.2, 0.15, 4)&lt;/em&gt; и координат равные &lt;em&gt;(0, 0.375, 1)&lt;/em&gt;. Таким образом наша стрелка будет расположена выше часовой стрелки.&lt;/p&gt;
+
+&lt;p&gt;Для секундной стрелки установим значения для масштаба равные &lt;em&gt;(0.1, 0.1, 5)&lt;/em&gt; и координат &lt;em&gt;(0, 0.5, 1.25)&lt;/em&gt;. Выделим нашу секундную стрелку на общем фоне путем создания нового материала красного цвета со значением &lt;em&gt;Albedo&lt;/em&gt; равным &lt;em&gt;(197,0,0)&lt;/em&gt; и применим этот материал на нашей стрелке.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\all-arms-scene.png&quot; width=&quot;250&quot; height=&quot;188&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\all-arms-hierarchy.png&quot; width=&quot;120&quot; height=&quot;154&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часы со всеми стрелками&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Наши часы полностью готовы. Если вы до этого не создавали и не сохраняли вашу сцену, то самое время это сделать, нажав &lt;em&gt;File / Save Scene&lt;/em&gt; имя сцены выбирайте сами. Я назвал ее просто &lt;em&gt;Scene&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Прим. От переводчика:&lt;/strong&gt; сцены в Unity это как отдельные уровни одной большой игры. У вас может быть несколько сцен, на которых будут разные уровни. После завершения одного вы можете запускать другой, обеспечивая тем самым смену локаций. Заведите себе привычку при создании любого проекта первым делом создать сцену. Сохраняйте эту сцену каждые 5-10 минут нажатием клавиш Ctrl+S. Это не раз вас спасет если вы работаете не на самом мощном компьютере.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\saved-scene.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Сохраненная сцена&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы застряли, хотите сравнить или пропустить блок с созданием часов, то вы можете &lt;a href=&quot;http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/building-a-simple-clock/building-a-simple-clock.unitypackage&quot;&gt;скачать&lt;/a&gt; сделанный мною вариант. Вы можете присоединить мой вариант к своему проекту через вкладку &lt;em&gt;Assets / Import Package / Custom Package&lt;/em&gt;. Далее нажмите &lt;em&gt;Import&lt;/em&gt; и запустите мою сцену.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-Анимируем-часы&quot;&gt;&lt;strong&gt;2. Анимируем часы&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Замечательно! Часы есть. Запустим сцену нажав на кнопку &lt;em&gt;Play&lt;/em&gt;. Если у вас камера направлена прямо на часы, то вы заметите что часы не идут. Нажмем снова на &lt;em&gt;Play&lt;/em&gt;, остановим игру и проясним ситуацию. На данный момент мы просто создали иерархию объектов, которые просто расположены на сцене. Ничего более. Если бы в Unity был уже готовый компонент, который мы могли бы прикрепить к часам, и он начал бы сразу бы работать, было бы круто, но такого компонента нет. Потому нам придется его создать самим. Компоненты создаются с помощью скриптов. Добавим новый скрипт нажав _ Assets / Create / C# Script_ и назвав его &lt;em&gt;Clock&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\clock-project.png&quot; width=&quot;90&quot; height=&quot;70&quot; /&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\clock-inspector.png&quot; width=&quot;320&quot; height=&quot;156&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Наш скрипт во вкладке проект и во вкладке с компонентами &lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;При выборе скрипта инспектор покажет содержимое скрипта и там же можно найти кнопку &lt;em&gt;Open&lt;/em&gt; для того чтобы открыть наш файл в редакторе. Или просто сделай двойной клик по файлу, и он откроется в редакторе. Наш скрипт будет содержать в себе шаблон кода по умолчанию. Этот код представлен ниже.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;System.Collections&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;System.Collections.Generic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// Use this for initialization&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;		
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;// Update is called once per frame&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Update&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;	
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Этот код написан на языке C#. Это язык программирования используется в Unity для создания скриптов. Для того чтобы более подробно разобраться с тем как работает код, удалим все что нам сгенерировал Unity с начнем сначала.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;А что насчет JavaScript?&lt;/p&gt;
+
+  &lt;p&gt;Unity так же поддерживает другой язык программирования, обычно называемый JavaScript, но его фактическое название – UnityScript. Unity 2017.1.0 до сих пор поддерживает его, но в версии Unity 2017.2.0 из меню для добавления компонентов была убрана возможность создать JavaScript. Как бы можно точно сказать, что поддержка этого языка полностью прекращена в Unity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;21-Введение-в-скриптинг&quot;&gt;&lt;strong&gt;2.1 Введение в скриптинг&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Пустой скрипт, в котором нет ни единой строчки не будет работать в Unity. Мы назвали наш файл &lt;em&gt;Clock&lt;/em&gt; и Unity ждет того что в данном скрипте будет указано то, что должны делать наши часы. Мы не даем определение для одного экземпляра компонента. Вместо этого мы определяем общий класс или тип, известный как &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt;. После того как мы это сделаем, мы можем создать несколько таких компонентов в Unity.&lt;/p&gt;
+
+&lt;p&gt;В C# мы определяем тип &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; начиная с определения класса. Нужно явно указать какую структуру мы будем использовать для определения наших часов.  &lt;em&gt;Строки кода в которых что-то изменилось будут закоментированы.&lt;/em&gt; Когда мы начинаем работу с полностью пустым файлом первое что мы должны объявить это &lt;code class=&quot;highlighter-rouge&quot;&gt;class Clock&lt;/code&gt;. При желании можете поиграться со знаками табуляции нажав пробел или &lt;em&gt;Tab&lt;/em&gt;,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое класс с технической точки зрения?&lt;/p&gt;
+
+  &lt;p&gt;Класс представляет собой шаблон, по которому определяется форма объекта. В нем указываются данные и код, который будет оперировать этими данными. В C# используется спецификация класса для построения объектов, которые являются экземплярами класса. Следовательно, класс, по существу, представляет собой ряд схематических описаний способа построения объекта. При этом очень важно подчеркнуть, что класс является логической абстракцией. Физическое представление класса появится в оперативной памяти лишь после того, как будет создан объект этого класса.&lt;/p&gt;
+
+  &lt;p&gt;Классы и структуры — это, по сути, шаблоны, по которым можно создавать объекты. Каждый объект содержит данные и методы, манипулирующие этими данными.&lt;/p&gt;
+
+  &lt;p&gt;Прим. От переводчика: у автора написано примерно такое же определение, но в более сжатой форме. Его определение очень сложно перевести так, чтобы оно было понятно читателю. Потому данное определение я сформулировал самостоятельно исходя из контекста автора. При необходимости прочитайте это в оригинале.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Поскольку мы не хотим ограничивать доступ к нашему классу, проставим модификатор доступа к &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt;. Это делается путем подставленные префикса &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt; перед определением класса.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое модификатор доступа по умолчанию для классов?&lt;/p&gt;
+
+  &lt;p&gt;Если мы не проставим самостоятельно модификатор доступа, то будет выбран модификатор по умолчанию ` internal class Clock`. Это ограничивает доступ к коду из одной сборки, что становится актуальным при использовании кода, упакованного в несколько DLL файлов.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;На данном этапе наш код до сих пор не компилируется. Мы указали что есть некий класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; но мы не указали что он должен делать. Для компилятора необходимо явно указать область, в которой будет прописан код нашего класса. Эти самый границы обозначаются фигурными скобками &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;, давайте добавим их&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Теперь наш скрипт скомпилируется. Нажмите &lt;em&gt;Ctrl+S&lt;/em&gt; для того чтобы сохранить изменения в файле и вернитесь в окно редактора Unity. Unity «увидела» что файл был изменен и сразу перекомпилировала его. Давайте выберем наш скрипт. И в инспекторе мы можем увидеть надпись, которой до этого не было, которая говорит нам о том, что наш класс не содержит &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\non-component.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Отсутствует  MonoBehaviour &lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Это означает что мы не можем использовать этот скрипт для создания компонента в Unity. На данном этапе наш класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; определяет универсальный тип объекта в C#. Для того чтобы наш компонент мог что-либо сделать (в данном случае нам нужно заставить стрелки часов вращаться) нужно реализовать методы, которые есть в классе &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что за MonoBehaviour?&lt;/p&gt;
+
+  &lt;p&gt;Идея заключается в том, что мы можем программировать наши собственные компоненты, чтобы добавить пользовательского &lt;strong&gt;поведения&lt;/strong&gt; (от англ. Behaviour) для наших игровых объектов. Приставка Mono была добавлена в следствии того что ранее Unity использовал проекты типа mono что являелся кроссплатформенным расширение фалов в .NET framework. Потому и MonoBehaviour. Это старое название, которое пришло к нам из первых версий Unity.  Узнать о Mono подробнее можно &lt;a href=&quot;https://ru.wikipedia.org/wiki/Mono&quot;&gt;тут&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Чтобы превратить &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; в подтип &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt; мы должны явно это указать через знак двоеточия. Это позволяет нашим &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; унаследовать весь функционал ` MonoBehaviour `.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Однако, это все равно приводит к ошибке компиляции. Компилятор жалуется что не может найти тип &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt;. Это произошло потому что &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt; находится в пространстве имен &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine&lt;/code&gt;. Чтобы получить доступ к нему необходимо явно указать что мы хотим использовать &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt; из пространства имен &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое пространство имен?&lt;/p&gt;
+
+  &lt;p&gt;Пространство имен это как домен для сайта, но только в коде. Как домен может иметь субдомен, так и пространство имен может иметь подпространство имен. Большая проблема данной аналогии в том, что путь к сайту в программировании записывается наоборот. Вместо forum.unity3d.com мы имеем com.unity3d.forum. Код написанный разработчиками не нужно ниоткуда качать т.к. он сразу есть в Unity. Пространства имен используются для организации кода и предотвращения смешивания имен функции.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Поскольку неудобно всегда использовать префикс &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine&lt;/code&gt;, мы можем сказать компилятору чтобы он выполнял поиск в этом пространстве имен. Это делается путем добавления строки &lt;code class=&quot;highlighter-rouge&quot;&gt;using UnityEngine;&lt;/code&gt; в заголовок скрипта. Знак точки с запятой &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; здесь очень важен потому что он явно говорит компилятору где именно закончилась команда.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Ну теперь наконец-то мы можем прикрепить наш компонент к объекту. Это можно легко сделать просто, перетащив наш скрипт на нужный нам объект, либо нажать на объекте кнопку &lt;em&gt;Add Component&lt;/em&gt;, которая находится во вкладке &lt;em&gt;Inpector&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\clock-with-component.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Объект Clock с прикрепленным к нему скриптом &lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь у нас создан экземпляр объекта C#, использующий наш класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; в качестве шаблона. В результате чего мы видим неизменяемое поле Script со значением Clock.&lt;/p&gt;
+
+&lt;h3 id=&quot;22-Получим-стрелки-часов&quot;&gt;&lt;strong&gt;2.2 Получим стрелки часов&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Для того чтобы поворачивать наши стрелки необходимо передать информацию о них нашему скрипту &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt;. Давайте начнем с часовой стрелки. Все игровые объекты могут быть повернуты путем изменения углов поворота в соответствующем компоненте &lt;em&gt;Transform&lt;/em&gt;. Поэтому нашему скрипту необходимо явно указать на то какой компонент нам необходимо получить. Это можно сделать путем добавления поля с данными внутрь блока с кодом.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hours transform&lt;/code&gt; будет подходящим именем для нашего поля. Для того чтобы Unity мог правильно распарсить имена наших переменных, то стоит их называть в соответствии со стилем написания составных слов, при котором несколько слов пишутся слитно без пробелов, при этом каждое слово внутри фразы пишется с заглавной буквы - &lt;em&gt;CamelCase&lt;/em&gt;. В нашем случае будет правильно назвать наше поле &lt;code class=&quot;highlighter-rouge&quot;&gt;hoursTransform&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Куда делась строка с using?&lt;/p&gt;
+
+  &lt;p&gt;Она все еще тут. Фрагменты кода, которые будут приведены будут содержать фрагменты, в которых что-либо изменилось. потому если вы части кода не видите, то значит он остается без изменений.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Так же обязательно мы должны указать тип нашего поля. В данном случае мы хотим получить компонент &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine.Transform&lt;/code&gt; который содержит в себе информацию взятую из компонента &lt;em&gt;Transform&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Наш класс теперь определяет поле, которое должно содержать ссылку на объект, тип которого должен быть &lt;code class=&quot;highlighter-rouge&quot;&gt;Transform&lt;/code&gt;. Нам нужно убедиться, что мы передаем ссылку на компонент &lt;code class=&quot;highlighter-rouge&quot;&gt;Transform&lt;/code&gt; объекта &lt;em&gt;Hours Arm&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Но пока мы не можем этого сделать, потому что у нас не указан модификатор доступа к данному полю. Вся загвоздка тут в том, что если мы явно не прописываем этот модификатор, то по умолчанию он проставляется как &lt;code class=&quot;highlighter-rouge&quot;&gt;private&lt;/code&gt;, что означает что получить доступ к данному полю мы можем только внутри нашего класса и никак не можем получить из вне. Поэтому давайте изменим модификатор доступа, добавив ключевое слово &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Разве публичные поля это не плохо?&lt;/p&gt;
+
+  &lt;p&gt;В целом, консенсус заключается в том, чтобы избежать создания открытых полей при создании программ. Однако в Unity публичные поля нужны для того чтобы передать ссылку на элементы сцены, которые мы хотим каким-либо образом изменить. Можно обойтись и без публичных полей, но тогда вам придется изрядно с этим заморочиться и написать алгоритм, который рекурсивно проходит по всей иерархии и ищет ваши объекты по имени или тегам.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;После того как мы проставили наш модификатор доступа, то мы должны увидеть соответствующее поле в окне &lt;em&gt;Inspector&lt;/em&gt;. Это работает именно так. Вы пишете код, сохраняете его, Unity видит что файл был изменен, заново его компилирует, и обновляет его.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-transform-field.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Поле Hours Transform типа Transform&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Для того чтобы передать ссылку на нужный нам компонент, необходимо найти нужный нам объект в иерархии и просто перетащить его в созданное нами поле. Но есть и другой способ. Необходимо просто нажать на кружок рядом с полем и выбрать в выпадающем меню нужный нам компонент.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-transform-connected.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Ссылка на компонент Transform объекта Hours Arms передана&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;23-Получим-все-стрелки-часов&quot;&gt;&lt;strong&gt;2.3 Получим все стрелки часов&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Сделаем то же самое для минутной и секундной стрелки.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Эти объявления полей можно сделать более краткими, поскольку они имеют один и тот же модификатор доступа и тип. Объявление всех этих переменных можно свернуть в одну строчку. Для этого нужно просто записывать все переменные друг за другом, отделяя их друг от друга запятыми.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// public Transform minutesTransform;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// public Transform secondsTransform;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что означает //?&lt;/p&gt;
+
+  &lt;p&gt;Два слэша идущих друг за другом это комментирование. Весь текст которых находится на этой строчке после двух слэшей просто игнорируется компилятором. Используется это для того чтобы добавлять какой-либо текст, не являющийся кодом в файл с кодом. Комментарии нужны для того чтобы дать понять другим людям или вам самим что делает тот или иной блок кода. Не стоит комментировать каждую строчку кода, это только затруднит чтение.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Теперь передайте ссылки на наши объекты так же как мы сделали это с часовой стрелкой.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\arms-connected.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Ссылки на все объекты переданы&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;24-Какой-сейчас-час&quot;&gt;&lt;strong&gt;2.4 Какой сейчас час?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Теперь, когда мы явно указали ссылки на все объекты с которыми мы хотим что-либо сделать, мы можем перейти к следующему шагу – узнать который сейчас час. Чтобы сделать это мы должны прописать код, который будет делать то что нам нужно. Это делается путем добавления метода в наш класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt;. Метод этот должен определенное имя &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; и название такое он имеет потому что мы предполагаем, что наш код должен выполнится, как только запустится наша сцена.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+	&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+	&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Методы несколько похожи на математические функции, для примера &lt;script type=&quot;math/tex&quot;&gt;f(x) = 2x + 3&lt;/script&gt;. Эта функция берет некоторое число, умножает его на 2 и прибавляет 3. Она берет одно число на вход и возвращает тоже одно число. В случае метода это больше похоже на &lt;script type=&quot;math/tex&quot;&gt;f(p) = c&lt;/script&gt;, где &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; представляет собой входные параметры, а &lt;script type=&quot;math/tex&quot;&gt;с&lt;/script&gt; это выполнение кода. Такое объяснение может показаться слишком абстрактным, потому что не понятно какой результат выполнения нашей функции. Но на самом деле наша функция может и не возвращать никакого результата, она может просто выполнять код, который прописан внутри метода и все. Для того чтобы создать такой метод, то перед именем метода должен стоять префикс &lt;code class=&quot;highlighter-rouge&quot;&gt;void&lt;/code&gt; (в дословном переводе «пустой»).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Отлично. Но есть еще одна загвоздка. Компилятор ожидает что наш метод может принимать на вход какие-либо параметры. Но в нашем случае метод не принимает на вход никаких параметров и мы обязательно должны это указать поставив круглые скобки после имени нашего метода &lt;code class=&quot;highlighter-rouge&quot;&gt;()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Теперь у нас есть валидный метод, который ничего не делает. Как бы Unity увидит наши поля, которые прописаны выше, увидит &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; метод и сделает то что написано в &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt; скобках. Если в нашем скрипте присутствует метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; и этот скрипт наследуется от ` MonoBehaviour`, то фрагмент кода написанный внутри этого метода выполняется сразу, как только компонент содержащий наш скрипт будет создан или загружен на сцену.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Почему у нашего метода Awake нет модификатора доступа?&lt;/p&gt;
+
+  &lt;p&gt;Метод Awake и набор некоторых других методов считаются особенными конкретно для Unity. Unity найдет и вызовет этот метод тогда, когда это будет нужно Unity. Мы не должны вызывать эти методы самостоятельно, Unity сам все поймет, распарсит и запустит помеченные нами методы именно в тот момент, в который нам надо.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Чтобы проверить как именно это работает давайте заставим нашу программу выводить сообщение в консоль. Как раз класс &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine.Debug&lt;/code&gt; имеет публичный метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Log&lt;/code&gt;, который поможет решить нашу задачу. Давайте просто выведем простой текст в консоль. Текст, который мы хотим вывести обернем в &lt;code class=&quot;highlighter-rouge&quot;&gt;“”&lt;/code&gt;. И не забудьте про &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt;, которая вспомните сами для чего нам нужна :)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Test&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Нажмите на кнопку &lt;em&gt;Play&lt;/em&gt; в редакторе. И вы увидите как текст, написанный нами отобразится во вкладке &lt;em&gt;Console&lt;/em&gt;. Либо же вы можете нажать &lt;em&gt;Window / Console&lt;/em&gt;. В консоль может выводится вся информация, связанная с работой самой программы и кода, который вы написали. Если вы допустите ошибку при написании, то Unity выбросит вам исключение, которое отобразится в консоли.&lt;/p&gt;
+
+&lt;p&gt;Теперь, когда мы знаем, что наш метод работает, давайте узнаем текущее время. Пространство имен &lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine&lt;/code&gt; содержит в себе класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Time&lt;/code&gt;, который в свою очередь содержит свойство &lt;code class=&quot;highlighter-rouge&quot;&gt;time&lt;/code&gt;. Очевидно, даже очень, давайте закодим и посмотрим, что у нас получится.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое свойство?&lt;/p&gt;
+
+  &lt;p&gt;Свойство – это метод, который притворяется полем. У свойств можно проставить свои модификаторы доступа, позволяющие только читать, только записывать или и читать, и записывать данные. Негласно программисты стараются избегать использования свойств, но в Unity не всегда следуют этому негласному правилу.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;После запуска мы увидим в консоли цифру 0. Это произошло потому что &lt;code class=&quot;highlighter-rouge&quot;&gt;Time.time&lt;/code&gt; возвращает время, которое прошло со времени запуска сцены. А поскольку, как мы говорили ранее, вывод в консоль происходит в момент инициализации компонента, а наш компонент инициализируется во время запуска сцены, а это значит, что времени с момента запуска сцены прошло ровно 0.&lt;/p&gt;
+
+&lt;p&gt;Для того чтобы получить доступ к системному времени компьютера, на котором мы работаем, мы можем использовать структуру &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt;. Данная структура не относится к Unity и находится в пространстве имен &lt;code class=&quot;highlighter-rouge&quot;&gt;System&lt;/code&gt;. Эта структура является частью .Net framework.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое структура?&lt;/p&gt;
+
+  &lt;p&gt;Как вам должно быть уже известно, классы относятся к ссылочным типам данных. Это означает, что объекты конкретного класса доступны по ссылке, в отличие от значений простых типов, доступных непосредственно. Но иногда прямой доступ к объектам как к значениям простых типов оказывается полезно иметь, например, ради повышения эффективности программы. Ведь каждый доступ к объектам (даже самым мелким) по ссылке связан с дополнительными издержками на расход вычислительных ресурсов и оперативной памяти.&lt;/p&gt;
+
+  &lt;p&gt;Для разрешения подобных затруднений в C# предусмотрена структура, которая подобна классу, но относится к типу значения, а не к ссылочному типу данных. Т.е. структуры отличаются от классов тем, как они сохраняются в памяти и как к ним осуществляется доступ (классы — это ссылочные типы, размещаемые в куче, структуры — типы значений, размещаемые в стеке), а также некоторыми свойствами (например, структуры не поддерживают наследование). Из соображений производительности вы будете использовать структуры для небольших типов данных. Однако в отношении синтаксиса структуры очень похожи на классы.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt; имеет публичное свойство &lt;code class=&quot;highlighter-rouge&quot;&gt;Now&lt;/code&gt;. Оно создает значение &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt;, которое содержит текущую системную дату и время. Let’s code it.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Теперь каждый раз при запуске нашей сцены у нас в консоли прописывается время, когда мы входим в &lt;em&gt;Play mode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;25-Поворачиваем-наши-стрелки&quot;&gt;&lt;strong&gt;2.5 Поворачиваем наши стрелки&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Следующий шаг — это поворот стрелок, основанный на текущем времени. По сложившейся традиции начнем мы с часовой стрелки. &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt; имеет еще одно интересное свойство, которое будет для нас полезно. Вызов свойства &lt;code class=&quot;highlighter-rouge&quot;&gt;hour&lt;/code&gt; возвращает нам количество часов в данный момент времени. У меня он вернет час дня.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Мы можем использовать это свойство для предания вращения нашим стрелкам. Вращение объектов в Unity описывается при помощи кватернионов (quaternions). Вызовем публичный метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Quaternion.Euler&lt;/code&gt;. В качестве аргументов данный метод принимает углы поворота по осям X, Y и Z и возвращает он соответствующий этим аргументам кватернион.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//Debug.Log(DateTime.Now.Hour);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что такое кватернион?&lt;/p&gt;
+
+  &lt;p&gt;Кватернионы базируются на комплексных числах и используются для описания поворота объекта в 3D пространстве. Их труднее понять, чем простые 3D векторы, но они имею ряд полезных свойств. Например, они не будут повержены эффекту &lt;a href=&quot;https://ru.wikipedia.org/wiki/Складывание_рамок&quot;&gt;складывания рамок&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UnityEngine.Quaternion&lt;/code&gt; используется как простое значение. Это структура, не класс.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Все три аргумента это действительные числа, которые представлены в C# как числа с плавающей точкой. Чтобы явно объявить, что мы передаем методу числа с плавающей точкой, нужно к каждому нулю добавить суффикс &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;На часах наши отметки расположены по кругу через каждый 30°. Чтобы наше вращение стрелок было правильным мы должны умножить текущее значение часов на 30.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Чтобы было ясно, что мы преобразуем часы в градусы, мы можем определить поле с соответствующим именем для коэффициента преобразования.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Поскольку данный коэффициент преобразования не будет нами больше изменяться, то мы можем объявить его константой.  Делаем это путем добавления префикса &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Что особенного в константах?&lt;/p&gt;
+
+  &lt;p&gt;Ключевое слово const обозначает что значение нашей переменной будет постоянно и его не нужно изменять. Как фундаментальные константы, которые существуют в реальном мире, такие как число Авогадро, постоянная Планка, число ПИ, число Эйлера и т.п. Особенность констант в том, что значение нашей константе присваивается в момент компиляции и не может быть изменено в процессы выполнения самой программы.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Отлично, у нас есть строка, которая описывает то, как должен вращаться наш объект. Но если мы запустим сцену, то увидим, что ничего не произошло. Дело все в том, что мы не указали что именно мы хотим вращать. А вращать мы хотим часовую стрелку и вращать мы ее будем относительно ее центра координат. У нашего поля &lt;code class=&quot;highlighter-rouge&quot;&gt;hoursTransform&lt;/code&gt; есть свойство, которое описывает поворот нашего объекта относительно центра координат &lt;code class=&quot;highlighter-rouge&quot;&gt;localRotation&lt;/code&gt; и необходимо этому свойству присвоить значение, полученное нами выше. Как бы поворачиваем нашу часовую стрелку относительно начала координат на кватернион полученный из текущего значения часов, умноженные на угловой интервал расположения часовых отметок.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\hours-arm-rotated.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часовая стрелка показывает 4 часа&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Запустив нашу сцену, мы увидим, что наша часовая стрелка заняла правильное положение и отображает текущее значение часов. Давайте теперь сделаем все то же самое для минутной и секундной стрелки, но с не большим уточнением. Поскольку часовых отметок на часах 12, а минутных и секундных отметок 60, то стоит объявить для каждой стрелки свою константу, чтобы они вращались правильно. &lt;script type=&quot;math/tex&quot;&gt;360° / 60 = 6°&lt;/script&gt; именно на столько градусов должна поворачиваться минутная и секундная стрелка.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;6f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;6f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Minute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Second&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\all-arms-rotated.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часы показывают 16:29:06&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь взглянем на наш код внимательно и увидим, что у нас &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime.Now&lt;/code&gt; используется трижды для часов, минут и секунд. Чисто теоретически из-за того, что наше свойство вызывается трижды в разных строчках кода, то может возникнуть коллизия, связанная с задержкой выполнения какой-либо из строчки кода. Например, каким-то неведанным образом после того как выполнится ` DateTime.Now.Minute ` произойдет задержка в пару секунд, и следующая строка выполнится позже, а если это еще произойдет на 59 секунде, то наша минутная стрелка целую секунду будет показывать неправильное время.  Для того чтобы такого не случилось нужно чтобы при каждом вызове нашего метода ` Quaternion.Euler&lt;code class=&quot;highlighter-rouge&quot;&gt; значение времени было одинаковым независимо от того, когда выполнится строчка кода, которая отвечает за поворот стрелки. Для этого объявим внутри метода &lt;/code&gt;Awake` переменную в которую поместим текущее время.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Awake&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Minute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Second&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;26-Заводим-наши-часы&quot;&gt;&lt;strong&gt;2.6 «Заводим» наши часы&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Если вы из любопытства уже успели запустить нашу сцену, то вы заметили, что наши часы не идут. Они показали время, в которое был проинициализирован наш скрипт и остановились. Как будто их нужно завести для того чтобы они снова начали показывать актуальное время.&lt;/p&gt;
+
+&lt;p&gt;Для того чтобы завести наши часы, нужно чтобы наш код выполнялся не в момент инициализации компонента, а каждый кадр. Но подождите, что нам придется опять писать много сложно кода чтобы заставить наши часы отображать время? – Нет, в Unity есть готовая реализация как метода &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; так и метода, который вызывается каждый кадр и выполняет весь код что написан внутри него. Метод этот называется &lt;code class=&quot;highlighter-rouge&quot;&gt;Update&lt;/code&gt;. И для того чтобы все заработало достаточно будет заменить &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; на &lt;code class=&quot;highlighter-rouge&quot;&gt;Update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Update&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Minute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Second&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;center&gt;
+&lt;video class=&quot;video&quot; id=&quot;video-cooperativeradiantichneumonfly&quot; alt=&quot;Clock GIF&quot; height=&quot;372&quot; width=&quot;492&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot; preload=&quot;auto&quot; poster=&quot;https://thumbs.gfycat.com/CooperativeRadiantIchneumonfly-mobile.jpg&quot; tabindex=&quot;-1&quot;&gt;&lt;source src=&quot;https://giant.gfycat.com/CooperativeRadiantIchneumonfly.webm&quot; type=&quot;video/webm&quot; /&gt;&lt;source src=&quot;https://giant.gfycat.com/CooperativeRadiantIchneumonfly.mp4&quot; type=&quot;video/mp4&quot; /&gt;&lt;meta itemprop=&quot;contentUrl&quot; content=&quot;https://giant.gfycat.com/CooperativeRadiantIchneumonfly.mp4&quot; /&gt;&lt;/video&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часы наконец-то показывают актуальное время&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;В случае если мы не хотим чтобы наш скрипт работал. Вместо того чтобы удалять компонент или править сам компонент, можно просто отключить наш компонент нажав на галочку рядом с именем нашего компонента&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\enabled-toggle.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Компонент с включенным переключателем&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;### &lt;strong&gt;2.7 Непрерывное вращение&lt;/strong&gt;
+Сейчас наши стрелки часов двигаются с прерыванием. Но вы наверняка в рольном мире видели часы, в которых строки часов идут плавно без рывков. Давайте добавим маленькую фичу нашим часам.&lt;/p&gt;
+
+&lt;p&gt;Для этого создадим еще одно публичное поле в классе &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; и назовем его &lt;code class=&quot;highlighter-rouge&quot;&gt;continuous&lt;/code&gt;. И поскольку это будет переключатель, который хранит в себе 2 состояния (плавное движение стрелок включено, плавное движение стрелок выключено), то объявим тип у этого поля &lt;code class=&quot;highlighter-rouge&quot;&gt;bool&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;continuous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Булева переменная может иметь всего 2 значения &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; или &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; (истина или ложь), которые соответствуют нашем случае положению включено и выключено. По умолчанию переменная типа &lt;code class=&quot;highlighter-rouge&quot;&gt;bool&lt;/code&gt; имеет значение &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;, поэтому вернитесь в окно Unity и поставьте галочку.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;\images\2018\01\GameObjectsAndScripts\continuous-option.png&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Плавное вращение стрелок включено&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Теперь нам нужно написать две разных реализации вращения стрелок. Но сначала не много подготовимся к этому. Продублируйте метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Update&lt;/code&gt; со всем имеющимся в нем кодом. Теперь у нас есть 2 метода &lt;code class=&quot;highlighter-rouge&quot;&gt;Update&lt;/code&gt;. Переименуем их. Один назовем &lt;code class=&quot;highlighter-rouge&quot;&gt;UpdateContinuous&lt;/code&gt;, второй &lt;code class=&quot;highlighter-rouge&quot;&gt;UpdateDiscrete&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UpdateContinuous&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Minute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Second&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UpdateDiscrete&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Minute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+			&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Second&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Теперь создайте метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Update&lt;/code&gt; и давайте поговорим. Поскольку у нас есть переключатель, который хранит в себе 2 значения (включено и выключено) и мы хотим, чтобы при нажатии на эту кнопку режим отображения времени у нас менялся. Иначе говоря, если наше поле &lt;code class=&quot;highlighter-rouge&quot;&gt;continuous&lt;/code&gt; имеет значение &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;, тогда вращать стрелки плавно, иначе вращать их с прерываниями.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Update&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;continuous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nf&quot;&gt;UpdateContinuous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nf&quot;&gt;UpdateDiscrete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Где может быть объявлен метод Update?&lt;/p&gt;
+
+  &lt;p&gt;Внутри класса Clock. будет ли он расположен выше или ниже относительно других методов не имеет значения. Однако существует негласное правило, которое гласит что, каждый метод должен идти в порядке его выполнения. Это упрощает чтение и понимание ваше кода другими людьми. В нашем случае лучше всего расположить метод Update в самом верху, после него расположить метод UpdateContinuous, а после UpdateDiscrete, в соответствии с порядком вызова, который мы указали в методе Update.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Не спешите пока запускать нашу сцену. Пока код в наших методах одинаковый и переключение не даст видимого эффекта. Для того чтобы все заработало нужно не много изменить наш метод ` UpdateContinuous`.&lt;/p&gt;
+
+&lt;p&gt;Класс &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt; не содержит в себе удобных дробных данных. Но к нашему счастью у него есть свойство TimeOfDay, которое содержит в себе значение типа &lt;code class=&quot;highlighter-rouge&quot;&gt;TimeSpan&lt;/code&gt;, которое содержит в себе данные в нужном нам формате. А именно &lt;code class=&quot;highlighter-rouge&quot;&gt;TotalHours&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;TotalMinutes&lt;/code&gt; и &lt;code class=&quot;highlighter-rouge&quot;&gt;TotalSeconds&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UpdateContinuous&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;TimeSpan&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TimeOfDay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalHours&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalMinutes&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalSeconds&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Кажется, что на этом все, но если мы сохраним наши изменения и вернемся в окно редактора, то увидим в консоли ошибку компиляции. Произошло это потому что наши значения аргументов имеют тип &lt;em&gt;double&lt;/em&gt;. Это тот же самый тип &lt;em&gt;float&lt;/em&gt; только хранить он в себе может в 2 раза больше значащих цифр после запятой. Ну и что? – Скажете вы. А дело все в том, что Unity работает только с типом &lt;em&gt;float&lt;/em&gt; и нам придется под это подстроиться.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;А достаточно ли точности в этом типе?&lt;/p&gt;
+
+  &lt;p&gt;Для большинства игр да. Проблемы начинают возникать тогда, когда вы начнете работать с очень большими рассеяниями или масштабами. Когда настанет такой момента, вам придется применять такие трюки как телепортация, чтобы сохранить локальную игровую зону в глобальных координатах. Хотя использование двойной точности решить эту проблему, это так же удвоит размер потребляемой памяти, что приведет к другим проблемам связанные с производительностью. Следовательно, лучше использовать float и прикручивать костыли по мере необходимости, нежели постоянно иметь проблему с производительностью.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Решить данную проблему мы можем очень и очень просто путем преобразования значений наших аргументов в тип &lt;em&gt;float&lt;/em&gt;. Это преобразование просто отбросит числа, которые не помещаются в 4 бита. Этот процесс называется принудительное приведение типов и делается он путем добавления круглых скобок перед нашим аргументом с написанным внутри значением типа переменной в который необходимо сделать преобразование.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalHours&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;minutesTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalMinutes&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerMinute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;secondsTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localRotation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Quaternion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Euler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TotalSeconds&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerSecond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;center&gt;&lt;video class=&quot;video&quot; id=&quot;video-glitteringoilyfieldmouse&quot; alt=&quot;Continuous Clock GIF&quot; height=&quot;376&quot; width=&quot;500&quot; autoplay=&quot;&quot; loop=&quot;&quot; playsinline=&quot;&quot; preload=&quot;auto&quot; poster=&quot;https://thumbs.gfycat.com/GlitteringOilyFieldmouse-mobile.jpg&quot; tabindex=&quot;-1&quot;&gt;&lt;source src=&quot;https://giant.gfycat.com/GlitteringOilyFieldmouse.webm&quot; type=&quot;video/webm&quot; /&gt;&lt;source src=&quot;https://giant.gfycat.com/GlitteringOilyFieldmouse.mp4&quot; type=&quot;video/mp4&quot; /&gt;&lt;meta itemprop=&quot;contentUrl&quot; content=&quot;https://giant.gfycat.com/GlitteringOilyFieldmouse.mp4&quot; /&gt;&lt;/video&gt;&lt;/center&gt;
+&lt;p&gt;&lt;em&gt;&lt;center&gt;Часы с плавным вращением стрелок&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;На этом все. Спасибо за внимание.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D.</summary></entry><entry><title type="html">Проба пера. Слепая печать.</title><link href="http://localhost:4000/jekyll/update/2018/01/03/hello-world.html" rel="alternate" type="text/html" title="Проба пера. Слепая печать." /><published>2018-01-03T04:24:17+03:00</published><updated>2018-01-03T04:24:17+03:00</updated><id>http://localhost:4000/jekyll/update/2018/01/03/hello-world</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/03/hello-world.html">&lt;p&gt;Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.&lt;/p&gt;
 
 &lt;p&gt;Вы когда-нибудь задумывались над тем на сколько скорость набора текста/кода влияет на вашу производительность? На сколько знание hotkeys реально делает взаимодействие с Вашим компьютером быстрее? Пробовали ли Вы полностью отказаться от использования мыши?&lt;/p&gt;
 
-&lt;p&gt;Вопросы на первый взгляд очень скучные, но, однако, позвольте Вас сразу прервать. На данный момент я набираю текст со скоростью примерно в 200-220 символов в минуту используя метод слепой печати. Предположим, что данная статья будет состоять из 10000 символов, значит на то чтобы написать её у меня уедет 50 минут. Это и без того довольно много времени с учетом того что текс еще нужно перечитать перед публикацией, внести правки, проверить ошибки итд. В условиях нынешних реалий приходится постоянно куда-то спешить и вот так просто тратить каждый день по несколько часов на то чтобы выражать свои мысли непозволительная роскошь. А если Вы программист и не умеете печатать в слепую, у меня для Вас плохие новости. Неумение выжимать из своего компьютера максимум для программиста просто первый признак того что Вы не желаете стать профессионалом в пользовании компьютером и в разработке ПО.&lt;/p&gt;
+&lt;p&gt;Вопросы на первый взгляд очень скучные, но, однако, позвольте Вас сразу прервать. На данный момент я набираю текст со скоростью примерно в 200-220 символов в минуту используя метод слепой печати. Предположим, что данная статья будет состоять из 10000 символов, значит на то чтобы написать её у меня уедет 50 минут. Это и без того довольно много времени с учетом того что текст еще нужно перечитать перед публикацией, внести правки, проверить ошибки и т.д.. В условиях нынешних реалий приходится постоянно куда-то спешить и вот так просто тратить каждый день по несколько часов на то чтобы выражать свои мысли непозволительная роскошь. А если Вы программист и не умеете печатать в слепую, у меня для Вас плохие новости. Неумение выжимать из своего компьютера максимум для программиста просто первый признак того что Вы не желаете стать профессионалом в пользовании компьютером и в разработке ПО.&lt;/p&gt;
 
 &lt;p&gt;Представим, что у Вас есть пример реализации кода строчек так примерно на 1000. С учетом всех изменений и непрерывного написания программы без использования метода слепой печати у Вас может уйти слишком много времени на написание простого кода. Ну например вы создаете класс в котором 20 полей, 5 конструкторов, 2 публичных и 10 приватных методов. Вы набираете методы пальчиками? Еще и смотря на клавиатуру? Плохо… Неэффективно… Уволить!&lt;/p&gt;
 
@@ -18,7 +715,7 @@ Ctrl + Ctrl + ArrowUp/ArrowDown (двойное нажатие на CTRL) - ре
 Ctrl + W - интелектуальное выделение слов
 Crtl + F - поиск слов 
 Crtl + . - закомментировать/раскомментировать код
-F2 - переименовать переменную, класс, метод, интерфейс итд
+F2 - переименовать переменную, класс, метод, интерфейс и т.д.
 Ctrl+  Shift + R - удобная менюшка для быстрого рефакторинга кода
 F5 - запуск программы в режиме Debug
 Ctrl + F5 - запуск программы в режиме Run
@@ -46,4 +743,22 @@ Ctrl + T,R - запустить UnitTest&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Если вы любите посидеть и попереписываться в VK, Telegram, Facebook и подобном, то увеличив скорость набора текста получится не только больше писать и всегда иметь преимущество перед человеком, который набирает текст медленнее Вас (например, в жарком споре, когда пишутся огромные серенады), но и экономить кучу времени переключаясь между задачами. Когда Вам нужно просто быстро ответить с минимальными затратами по времени чтобы не потерять концентрацию.&lt;/p&gt;
 
-&lt;p&gt;Спасибо за внимание!&lt;/p&gt;</content><author><name></name></author><summary type="html">Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.</summary></entry></feed>
+&lt;p&gt;Спасибо за внимание!&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+
+var disqus_config = function () {
+this.page.url = https://vangogih.github.io/;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = /jekyll/update/2018/01/03/hello-world.html; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-vangogih-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</content><author><name></name></author><summary type="html">Привет. Этот пост скорее не большая проба пера, нежели чем реально что-то серьезное.</summary></entry></feed>
