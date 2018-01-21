@@ -722,7 +722,9 @@ secondsTransform.localRotation =
 <center><video class="video" id="video-glitteringoilyfieldmouse" alt="Continuous Clock GIF" height="376" width="500" autoplay="" loop="" playsinline="" preload="auto" poster="https://thumbs.gfycat.com/GlitteringOilyFieldmouse-mobile.jpg" tabindex="-1"><source src="https://giant.gfycat.com/GlitteringOilyFieldmouse.webm" type="video/webm"><source src="https://giant.gfycat.com/GlitteringOilyFieldmouse.mp4" type="video/mp4"><meta itemprop="contentUrl" content="https://giant.gfycat.com/GlitteringOilyFieldmouse.mp4"></video></center>
 _<center>Часы с плавным вращением стрелок</center>_
 
-Скачать вариант сделаный автором можно по ссылке: [unitypackage]
+Скачать вариант сделаный автором можно по ссылке: [1.unitypackage]
+
+Скачать вариант сделанный переводчиком можно мо ссылке: [2.unitypackage]
 
 На этом все. Спасибо за внимание.
 
@@ -732,8 +734,8 @@ _<center>Часы с плавным вращением стрелок</center>_
 [скачать]: http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/building-a-simple-clock/building-a-simple-clock.unitypackage
 [тут]: https://ru.wikipedia.org/wiki/Mono
 [складывания рамок]: https://ru.wikipedia.org/wiki/Складывание_рамок
-[unitypackage]:http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/animating-the-clock/animating-the-clock.unitypackage
-
+[1.unitypackage]:http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/animating-the-clock/animating-the-clock.unitypackage
+[2.unitypackage]:\content\2018\01\GameObjectsAndScripts\Clock.unitypackage
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
