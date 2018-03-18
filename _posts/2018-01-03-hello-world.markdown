@@ -74,6 +74,8 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
 
+<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async></script>
+
 [Stamina]: https://yadi.sk/d/KyT2iMtO3RAYSx
 
 

@@ -827,6 +827,7 @@ _<center>Анимированная функция</center>_
 
 Следующий урок: Математические поверхности
 
+<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async></script>
 [Игровые объекты и скрипты]: /jekyll/update/2018/01/17/Game-Objects-and-Scripts.html
 [map]: https://ru.wikipedia.org/wiki/Map
 [области определения функции]: https://ru.wikipedia.org/wiki/Область_определения_функции
@@ -841,4 +842,4 @@ _<center>Анимированная функция</center>_
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async></script>
+

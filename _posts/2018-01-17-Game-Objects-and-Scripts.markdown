@@ -729,7 +729,7 @@ _<center>Часы с плавным вращением стрелок</center>_
 
 На этом все. Спасибо за внимание.
 
-
+<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async></script>
 
 [пожертвование]: http://catlikecoding.com/unity/tutorials/donating.html 
 [скачать]: http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/building-a-simple-clock/building-a-simple-clock.unitypackage
@@ -740,4 +740,3 @@ _<center>Часы с плавным вращением стрелок</center>_
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async></script>
