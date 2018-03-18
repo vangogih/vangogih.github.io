@@ -827,18 +827,6 @@ _<center>Анимированная функция</center>_
 
 Следующий урок: Математические поверхности
 
-<section class="tabs">
-	<input id="tab_1" type="radio" name="tab" />
-	
-	<label for="tab_1" id="tab_l1">Tab One</label>
-		<div style="clear:both"></div>
-
-	<div class="tabs_cont">
-		<div id="tab_c1">Content of first tab</div>
-		
-	</div>
-</section>
-
 [Игровые объекты и скрипты]: /jekyll/update/2018/01/17/Game-Objects-and-Scripts.html
 [map]: https://ru.wikipedia.org/wiki/Map
 [области определения функции]: https://ru.wikipedia.org/wiki/Область_определения_функции
