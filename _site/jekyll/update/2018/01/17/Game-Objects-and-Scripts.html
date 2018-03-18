@@ -1,86 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html lang="en-US">
+<head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Unity3D Урок №1. Игровые объекты и скрипты</title>
-  <meta name="description" content="Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено м...">
+  <link rel="stylesheet" href="/assets/css/style.css?v=">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/script.js"></script>
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html">
-  <link rel="alternate" type="application/rss+xml" title="Блог Маслёнка" href="/feed.xml">
-  
-  
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Unity3D Урок №1. Игровые объекты и скрипты | Блог Маслёнка</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="Unity3D Урок №1. Игровые объекты и скрипты" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D." />
+<meta property="og:description" content="Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D." />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html" />
+<meta property="og:site_name" content="Блог Маслёнка" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-01-17T19:00:00+03:00" />
+<script type="application/ld+json">
+{"description":"Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D.","@type":"BlogPosting","url":"http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html","headline":"Unity3D Урок №1. Игровые объекты и скрипты","dateModified":"2018-01-17T19:00:00+03:00","datePublished":"2018-01-17T19:00:00+03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2018/01/17/Game-Objects-and-Scripts.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta name="description" content="All contents under (CC) BY-NC-SA license, unless otherwise noted. ">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
 </head>
 
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body>
 
   <div class="wrapper">
-    
-    
-    <a class="site-title" href="/">Блог Маслёнка</a>
-  
-    
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          
-            
-            
-          
-            
-            
-            <a class="page-link" href="/about/">Об авторе</a>
-            
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
-        </div>
-      </nav>
-    
-  </div>
-</header>
-
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Unity3D Урок №1. Игровые объекты и скрипты</h1>
-    <p class="post-meta">
-      <time datetime="2018-01-17T19:00:00+03:00" itemprop="datePublished">
-        
-        Jan 17, 2018
-      </time>
-      </p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    <p>Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D.</p>
+    <header>
+	  <a class="title" href = "http://localhost:4000"> Блог Маслёнка </a>
+    </header>
+    <div id="container">
+      <p class="tagline">All contents under (CC) BY-NC-SA license, unless otherwise noted. </p>
+      <div id="main" role="main">
+        <article class="markdown-body">
+          <p>Привет. В один прекрасный день, пытаясь решить одну свою проблему, связанную с Unity3D, я наткнулся на блог одного человека. В этом блоге было представлено множество разных уроков по Unity3D. Сам парень из Дании и производство подобных статей для него является бизнесом. Он делает реально крутой контент, который ну просто грех не перевести на русский язык. Я связался с ним и попросил разрешения на перевод, на что он дал добро. Потому я запускаю большой цикл статей с переводом его уроков по Unity3D.</p>
 
 <p>Перейдя на его сайт Вы сможете ознакомиться с его статьями в оригинале. Я не прошу и не буду просить денег за свою работу, но если Вы разделяете мое мнение насчет годности контента этого талантливейшего разработчика, то Вы можете отблагодарить его за работу просто присоединивших к платформе Patreon и указать сумму ежемесячного взноса, либо же сделать единовременно пожертвование. В каждой переведенной мною статье я буду напоминать о том, что можно отблагодарить этого человека.</p>
 
@@ -118,7 +80,7 @@
 <p><img src="\images\2018\01\GameObjectsAndScripts\tutorial-image.jpg" alt="Пришло время создать часы" />
 <em><center>Пришло время создать часы</center></em></p>
 
-<h3 id="1-Создадим-часы"><strong>1. Создадим часы</strong></h3>
+<h2 id="1-Создадим-часы"><strong>1. Создадим часы</strong></h2>
 <p>Откройте Unity и создайте новый 3D проект. Вам не понадобятся какие-либо уникальные ассеты с готовыми компонентами, аналитика вам тоже не понадобится, потому ее можно просто отключить. Если вы еще не настроили редактор, то у Вас будет установлено расположение окон по умолчанию.</p>
 
 <p><img src="\images\2018\01\GameObjectsAndScripts\default-layout.png" alt="_Вариант расположения окон по умолчанию_" />
@@ -139,7 +101,7 @@
   <p><em><center>Low resolution aspect ratios отключена</center></em></p>
 </blockquote>
 
-<h3 id="11-Создадим-игровой-объект-game-object"><strong>1.1 Создадим игровой объект (Game Object)</strong></h3>
+<h2 id="11-Создадим-игровой-объект-game-object"><strong>1.1 Создадим игровой объект (Game Object)</strong></h2>
 <p>По умолчанию в сцене присутствуют 2 игровых объекта. Эти объекты находятся во вкладке Hierarchy и именно их иконки вы можете наблюдать во вкладке Scene. Первое это <em>Main Camera</em>, используется для отображения всех объектов на сцене. Окно <em>Game</em> отображается все что попадает в поле зрения камеры. Второй это <em>Directional Light</em> этот компонент добавляет базовый свет на сцену (он как солнце освещает всю сцену равномерно из одной точки).</p>
 
 <p>Создадим собственный игровой объект выбрав в строке меню <em>GameObject / CreateEmpty</em>. Так же подобное вы можете сделать просто, нажав правой клавишей мыши на свободное место в окне <em>Hierarchy</em>. Давайте дадим только что добавленному объекту имя, для этого нажмите ПКМ на только что добавленном объекте и выберете <em>Rename</em>. Поскольку мы создаем часы, то назовем объект соответствующе - <em>Clock</em>.</p>
@@ -160,9 +122,9 @@
   <p>При работе в 2D вместо 3D игнорируется одно из трех измерений. Объекты, специально предназначенные для 2D-подобных элементов пользовательского интерфейса, обычно имеют <em>Rect Transform</em>, который является специализированным компонентом <em>Transform</em> для 2D объектов.</p>
 </blockquote>
 
-<h3 id="12-Создадим-основу-для-часов"><strong>1.2 Создадим основу для часов.</strong></h3>
+<h2 id="12-Создадим-основу-для-часов"><strong>1.2 Создадим основу для часов.</strong></h2>
 
-<p>Хоть у нас и есть объект часы, на сцене мы не видим ничего. Хорошо, давайте добавим на сцену 3D модель, которая будет отображаться на нашей сцене. В Unity «из под коробки» есть несколько примитивных объектов, которые мы можем использовать для того чтобы создать наши часы. Давайте начнем. Добавим на нашу сцену цилиндр нажав на <em>GameObject/3DObject/Cylinder</em>.  Убедитесь что он имеет те же значения Transform что и объект <em>Clock</em>.</p>
+<p>Хоть у нас и есть объект часы, на сцене мы не видим ничего. Хорошо, давайте добавим на сцену 3D модель, которая будет отображаться на нашей сцене. В Unity «из-под коробки» есть несколько примитивных объектов, которые мы можем использовать для того чтобы создать наши часы. Давайте начнем. Добавим на нашу сцену цилиндр нажав на <em>GameObject/3DObject/Cylinder</em>.  Убедитесь, что он имеет те же значения Transform что и объект <em>Clock</em>.</p>
 
 <center>
 <img src="\images\2018\01\GameObjectsAndScripts\cylinder.png" width="170" height="160" />
@@ -192,7 +154,7 @@
 
 <p>Дочерние объекты копируют преобразования родительского объекта. Это значит, что если мы изменим положение часов, то положение циферблата изменится вместе с ним, как будто они стали единым целым. Тоже самое касается вращения и масштаба. Это можно использовать для создания сложных иерархий объектов.</p>
 
-<h3 id="13-Создание-циферблата"><strong>1.3 Создание циферблата</strong></h3>
+<h2 id="13-Создание-циферблата"><strong>1.3 Создание циферблата</strong></h2>
 <p>Теперь сделаем градуировку на нашем циферблате, по которой можно будет ориентироваться во времени или по-другому контур часов. 
 Добавим объект Куб на сцену кликнув <em>GameObject / 3D Object / Cube</em>. Изменим масштаб на <em>(0.5, 0.2, 1)</em> сделав его длинным узким блоком похожий на брусок. Установим ему позицию <em>(0, 0.2, 4)</em>. Это положение соответствует 12 часам. Назовите его <em>Hour Indicator</em>.</p>
 
@@ -259,7 +221,7 @@
   <p>Это произошло потому что координаты, углы поворота и масштаб являются числами с плавающей точкой (float). Этот тип переменных имеет ограниченную точность, потому может вызвать незначительные отклонения, связанные с округлением. Переживать по этому поводу не стоит, поскольку отклонение 0,0000001 настолько мало что не оказывает никакого заметного влияния.</p>
 </blockquote>
 
-<h3 id="14-Создадим-стрелки-часов"><strong>1.4 Создадим стрелки часов</strong></h3>
+<h2 id="14-Создадим-стрелки-часов"><strong>1.4 Создадим стрелки часов</strong></h2>
 <p>Мы можем использовать тот же подход чтобы создать стрелки часов. Создайте новый куб и назовите его Arm, сразу перетяните на него созданный нами материал и удалите коллайдер. Установите масштаб равный <em>(0.3, 0.2, 2.5)</em> таким образом сделав его уже и длиннее чем наша отметка. Установите координаты <em>(0, 0.2, 0.75)</em> при такой установке стрелка будет направлена в сторону 12 часов, а другая сторона стрелки будет не много смещена относительно центра часов. Со стороны это выглядит как не большой противовес.</p>
 
 <center>
@@ -329,10 +291,10 @@
   <p>Unity так же поддерживает другой язык программирования, обычно называемый JavaScript, но его фактическое название – UnityScript. Unity 2017.1.0 до сих пор поддерживает его, но в версии Unity 2017.2.0 из меню для добавления компонентов была убрана возможность создать JavaScript. Как бы можно точно сказать, что поддержка этого языка полностью прекращена в Unity.</p>
 </blockquote>
 
-<h3 id="21-Введение-в-скриптинг"><strong>2.1 Введение в скриптинг</strong></h3>
+<h2 id="21-Введение-в-скриптинг"><strong>2.1 Введение в скриптинг</strong></h2>
 <p>Пустой скрипт, в котором нет ни единой строчки не будет работать в Unity. Мы назвали наш файл <em>Clock</em> и Unity ждет того что в данном скрипте будет указано то, что должны делать наши часы. Мы не даем определение для одного экземпляра компонента. Вместо этого мы определяем общий класс или тип, известный как <code class="highlighter-rouge">Clock</code>. После того как мы это сделаем, мы можем создать несколько таких компонентов в Unity.</p>
 
-<p>В C# мы определяем тип <code class="highlighter-rouge">Clock</code> начиная с определения класса. Нужно явно указать какую структуру мы будем использовать для определения наших часов.  <em>Строки кода в которых что-то изменилось будут закоментированы.</em> Когда мы начинаем работу с полностью пустым файлом первое что мы должны объявить это <code class="highlighter-rouge">class Clock</code>. При желании можете поиграться со знаками табуляции нажав пробел или <em>Tab</em>,</p>
+<p>В C# мы определяем тип <code class="highlighter-rouge">Clock</code> начиная с определения класса. Нужно явно указать какую структуру мы будем использовать для определения наших часов.  <em>Строки кода в которых что-то изменилось будут закоментированы. Когда мы начинаем работу с полностью пустым файлом первое что мы должны объявить это <code class="highlighter-rouge">class Clock</code>. При желании можете поиграться со знаками табуляции нажав пробел или _Tab</em>,</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="err">с</span><span class="n">lass</span> <span class="n">Clock</span></code></pre></figure>
 
@@ -372,14 +334,14 @@
 <blockquote>
   <p>Что за MonoBehaviour?</p>
 
-  <p>Идея заключается в том, что мы можем программировать наши собственные компоненты, чтобы добавить пользовательского <strong>поведения</strong> (от англ. Behaviour) для наших игровых объектов. Приставка Mono была добавлена в следствии того что ранее Unity использовал проекты типа mono что являелся кроссплатформенным расширение фалов в .NET framework. Потому и MonoBehaviour. Это старое название, которое пришло к нам из первых версий Unity.  Узнать о Mono подробнее можно <a href="https://ru.wikipedia.org/wiki/Mono">тут</a>.</p>
+  <p>Идея заключается в том, что мы можем программировать наши собственные компоненты, чтобы добавить пользовательского <strong>поведения</strong> (от англ. Behaviour) для наших игровых объектов. Приставка Mono была добавлена в следствии того что ранее Unity использовал проекты типа mono что является кроссплатформенным расширением файлов в .NET framework. Потому и MonoBehaviour. Это старое название, которое пришло к нам из первых версий Unity.  Узнать о Mono подробнее можно <a href="https://ru.wikipedia.org/wiki/Mono">тут</a>.</p>
 </blockquote>
 
 <p>Чтобы превратить <code class="highlighter-rouge">Clock</code> в подтип <code class="highlighter-rouge">MonoBehaviour</code> мы должны явно это указать через знак двоеточия. Это позволяет нашим <code class="highlighter-rouge">Clock</code> унаследовать весь функционал ` MonoBehaviour `.</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">public</span> <span class="err">с</span><span class="n">lass</span> <span class="n">Clock</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{}</span></code></pre></figure>
 
-<p>Однако, это все равно приводит к ошибке компиляции. Компилятор жалуется что не может найти тип <code class="highlighter-rouge">MonoBehaviour</code>. Это произошло потому что <code class="highlighter-rouge">MonoBehaviour</code> находится в пространстве имен <code class="highlighter-rouge">UnityEngine</code>. Чтобы получить доступ к нему необходимо явно указать что мы хотим использовать <code class="highlighter-rouge">MonoBehaviour</code> из пространства имен <code class="highlighter-rouge">UnityEngine</code>.</p>
+<p>Однако, это все равно приводит к ошибке компиляции. Компилятор жалуется, что не может найти тип <code class="highlighter-rouge">MonoBehaviour</code>. Это произошло потому что <code class="highlighter-rouge">MonoBehaviour</code> находится в пространстве имен <code class="highlighter-rouge">UnityEngine</code>. Чтобы получить доступ к нему необходимо явно указать что мы хотим использовать <code class="highlighter-rouge">MonoBehaviour</code> из пространства имен <code class="highlighter-rouge">UnityEngine</code>.</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">public</span> <span class="err">с</span><span class="n">lass</span> <span class="n">Clock</span> <span class="p">:</span> <span class="n">UnityEngine</span><span class="p">.</span><span class="n">MonoBehaviour</span> <span class="p">{}</span></code></pre></figure>
 
@@ -403,7 +365,7 @@
 
 <p>Теперь у нас создан экземпляр объекта C#, использующий наш класс <code class="highlighter-rouge">Clock</code> в качестве шаблона. В результате чего мы видим неизменяемое поле Script со значением Clock.</p>
 
-<h3 id="22-Получим-стрелки-часов"><strong>2.2 Получим стрелки часов</strong></h3>
+<h2 id="22-Получим-стрелки-часов"><strong>2.2 Получим стрелки часов</strong></h2>
 <p>Для того чтобы поворачивать наши стрелки необходимо передать информацию о них нашему скрипту <code class="highlighter-rouge">Clock</code>. Давайте начнем с часовой стрелки. Все игровые объекты могут быть повернуты путем изменения углов поворота в соответствующем компоненте <em>Transform</em>. Поэтому нашему скрипту необходимо явно указать на то какой компонент нам необходимо получить. Это можно сделать путем добавления поля с данными внутрь блока с кодом.</p>
 
 <p><code class="highlighter-rouge">Hours transform</code> будет подходящим именем для нашего поля. Для того чтобы Unity мог правильно распарсить имена наших переменных, то стоит их называть в соответствии со стилем написания составных слов, при котором несколько слов пишутся слитно без пробелов, при этом каждое слово внутри фразы пишется с заглавной буквы - <em>CamelCase</em>. В нашем случае будет правильно назвать наше поле <code class="highlighter-rouge">hoursTransform</code>.</p>
@@ -449,7 +411,7 @@
 </center>
 <p><em><center>Ссылка на компонент Transform объекта Hours Arms передана</center></em></p>
 
-<h3 id="23-Получим-все-стрелки-часов"><strong>2.3 Получим все стрелки часов</strong></h3>
+<h2 id="23-Получим-все-стрелки-часов"><strong>2.3 Получим все стрелки часов</strong></h2>
 <p>Сделаем то же самое для минутной и секундной стрелки.</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">public</span> <span class="n">Transform</span> <span class="n">hoursTransform</span><span class="p">;</span>
@@ -475,7 +437,7 @@
 </center>
 <p><em><center>Ссылки на все объекты переданы</center></em></p>
 
-<h3 id="24-Какой-сейчас-час"><strong>2.4 Какой сейчас час?</strong></h3>
+<h2 id="24-Какой-сейчас-час"><strong>2.4 Какой сейчас час?</strong></h2>
 <p>Теперь, когда мы явно указали ссылки на все объекты с которыми мы хотим что-либо сделать, мы можем перейти к следующему шагу – узнать который сейчас час. Чтобы сделать это мы должны прописать код, который будет делать то что нам нужно. Это делается путем добавления метода в наш класс <code class="highlighter-rouge">Clock</code>. Метод этот должен определенное имя <code class="highlighter-rouge">Awake</code> и название такое он имеет потому что мы предполагаем, что наш код должен выполнится, как только запустится наша сцена.</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">public</span> <span class="k">class</span> <span class="nc">Clock</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
@@ -508,7 +470,7 @@
 	<span class="n">Debug</span><span class="p">.</span><span class="nf">Log</span><span class="p">(</span><span class="err">“</span><span class="n">Test</span><span class="err">”</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Нажмите на кнопку <em>Play</em> в редакторе. И вы увидите как текст, написанный нами отобразится во вкладке <em>Console</em>. Либо же вы можете нажать <em>Window / Console</em>. В консоль может выводится вся информация, связанная с работой самой программы и кода, который вы написали. Если вы допустите ошибку при написании, то Unity выбросит вам исключение, которое отобразится в консоли.</p>
+<p>Нажмите на кнопку <em>Play</em> в редакторе. И вы увидите, как текст, написанный нами, отобразится во вкладке <em>Console</em>. Либо же вы можете нажать <em>Window / Console</em>. В консоль может выводится вся информация, связанная с работой самой программы и кода, который вы написали. Если вы допустите ошибку при написании, то Unity выбросит вам исключение, которое отобразится в консоли.</p>
 
 <p>Теперь, когда мы знаем, что наш метод работает, давайте узнаем текущее время. Пространство имен <code class="highlighter-rouge">UnityEngine</code> содержит в себе класс <code class="highlighter-rouge">Time</code>, который в свою очередь содержит свойство <code class="highlighter-rouge">time</code>. Очевидно, даже очень, давайте закодим и посмотрим, что у нас получится.</p>
 
@@ -550,7 +512,7 @@
 
 <p>Теперь каждый раз при запуске нашей сцены у нас в консоли прописывается время, когда мы входим в <em>Play mode</em>.</p>
 
-<h3 id="25-Поворачиваем-наши-стрелки"><strong>2.5 Поворачиваем наши стрелки</strong></h3>
+<h2 id="25-Поворачиваем-наши-стрелки"><strong>2.5 Поворачиваем наши стрелки</strong></h2>
 <p>Следующий шаг — это поворот стрелок, основанный на текущем времени. По сложившейся традиции начнем мы с часовой стрелки. <code class="highlighter-rouge">DateTime</code> имеет еще одно интересное свойство, которое будет для нас полезно. Вызов свойства <code class="highlighter-rouge">hour</code> возвращает нам количество часов в данный момент времени. У меня он вернет час дня.</p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">void</span> <span class="nf">Awake</span> <span class="p">()</span> 
@@ -651,7 +613,7 @@
 		<span class="n">Quaternion</span><span class="p">.</span><span class="nf">Euler</span><span class="p">(</span><span class="m">0f</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Second</span> <span class="p">*</span> <span class="n">degreesPerSecond</span><span class="p">,</span> <span class="m">0f</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<h3 id="26-Заводим-наши-часы"><strong>2.6 «Заводим» наши часы</strong></h3>
+<h2 id="26-Заводим-наши-часы"><strong>2.6 «Заводим» наши часы</strong></h2>
 <p>Если вы из любопытства уже успели запустить нашу сцену, то вы заметили, что наши часы не идут. Они показали время, в которое был проинициализирован наш скрипт и остановились. Как будто их нужно завести для того чтобы они снова начали показывать актуальное время.</p>
 
 <p>Для того чтобы завести наши часы, нужно чтобы наш код выполнялся не в момент инициализации компонента, а каждый кадр. Но подождите, что нам придется опять писать много сложно кода чтобы заставить наши часы отображать время? – Нет, в Unity есть готовая реализация как метода <code class="highlighter-rouge">Awake</code> так и метода, который вызывается каждый кадр и выполняет весь код что написан внутри него. Метод этот называется <code class="highlighter-rouge">Update</code>. И для того чтобы все заработало достаточно будет заменить <code class="highlighter-rouge">Awake</code> на <code class="highlighter-rouge">Update</code>.</p>
@@ -679,7 +641,7 @@
 </center>
 <p><em><center>Компонент с включенным переключателем</center></em></p>
 
-<p>### <strong>2.7 Непрерывное вращение</strong>
+<p>## <strong>2.7 Непрерывное вращение</strong>
 Сейчас наши стрелки часов двигаются с прерыванием. Но вы наверняка в рольном мире видели часы, в которых строки часов идут плавно без рывков. Давайте добавим маленькую фичу нашим часам.</p>
 
 <p>Для этого создадим еще одно публичное поле в классе <code class="highlighter-rouge">Clock</code> и назовем его <code class="highlighter-rouge">continuous</code>. И поскольку это будет переключатель, который хранит в себе 2 состояния (плавное движение стрелок включено, плавное движение стрелок выключено), то объявим тип у этого поля <code class="highlighter-rouge">bool</code>.</p>
@@ -776,72 +738,45 @@
 
 <p>Скачать вариант сделаный автором можно по ссылке: <a href="http://catlikecoding.com/unity/tutorials/basics/game-objects-and-scripts/animating-the-clock/animating-the-clock.unitypackage">1.unitypackage</a></p>
 
-<p>Скачать вариант сделанный переводчиком можно мо ссылке: <a href="\content\2018\01\GameObjectsAndScripts\Clock.unitypackage">2.unitypackage</a></p>
+<p>Скачать вариант сделанный переводчиком можно по ссылке: <a href="\content\2018\01\GameObjectsAndScripts\Clock.unitypackage">2.unitypackage</a></p>
 
 <p>На этом все. Спасибо за внимание.</p>
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+<script id="dsq-count-scr" src="//https-vangogih-github-io.disqus.com/count.js" async=""></script>
 
+
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      
+
+       
+
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <p class="name"></p>
   </div>
 
   
-</article>
-
-      </div>
-    </main>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Блог Маслёнка</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            
-              Блог Маслёнка
-            
-            </li>
-            
-            <li><a href="mailto:vangogih@yandex.ru">vangogih@yandex.ru</a></li>
-            
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/vangogih"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
-</span><span class="username">vangogih</span></a>
-
-          </li>
-          
-
-          
-          <li>
-            <a href="https://twitter.com/vangogih"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
-</span><span class="username">vangogih</span></a>
-
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>All contents under (CC) BY-NC-SA license, unless otherwise noted. </p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
-
-
-  </body>
-
+  
+   
+  <div id="disqus_thread"></div>
+	<script>
+		(function() { 
+		var d = document, s = d.createElement('script');
+		s.src = 'https://https-vangogih-github-io.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+</body>
 </html>
