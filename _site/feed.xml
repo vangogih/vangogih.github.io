@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-22T19:38:02+03:00</updated><id>http://localhost:4000/</id><title type="html">Блог Маслёнка</title><subtitle>All contents under (CC) BY-NC-SA license, unless otherwise noted. </subtitle><entry><title type="html">Unity3D Урок №2. Построение графика. Математическая визуализация</title><link href="http://localhost:4000/jekyll/update/2018/03/18/Building-Graph.html" rel="alternate" type="text/html" title="Unity3D Урок №2. Построение графика. Математическая визуализация" /><published>2018-03-18T19:00:00+03:00</published><updated>2018-03-18T19:00:00+03:00</updated><id>http://localhost:4000/jekyll/update/2018/03/18/Building-Graph</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/18/Building-Graph.html">&lt;h2 id=&quot;Построение-графика-Математическая-визуализация&quot;&gt;&lt;strong&gt;Построение графика. Математическая визуализация&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-23T18:59:39+03:00</updated><id>http://localhost:4000/</id><title type="html">Блог Маслёнка</title><subtitle>All contents under (CC) BY-NC-SA license, unless otherwise noted. </subtitle><entry><title type="html">Unity3D Урок №2. Построение графика. Математическая визуализация</title><link href="http://localhost:4000/jekyll/update/2018/03/18/Building-Graph.html" rel="alternate" type="text/html" title="Unity3D Урок №2. Построение графика. Математическая визуализация" /><published>2018-03-18T19:00:00+03:00</published><updated>2018-03-18T19:00:00+03:00</updated><id>http://localhost:4000/jekyll/update/2018/03/18/Building-Graph</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/18/Building-Graph.html">&lt;h2 id=&quot;Построение-графика-Математическая-визуализация&quot;&gt;&lt;strong&gt;Построение графика. Математическая визуализация&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Создадим префаб.&lt;/li&gt;
@@ -876,7 +876,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Компонент &lt;em&gt;Transform&lt;/em&gt; хранит в себе позицию, углы поворота, масштаб в 3D пространстве. Убедитесь, что координаты и угол поворота у наших часов равен 0, а масштаб 1.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Что насчет 2D объектов?&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что насчет 2D объектов?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;При работе в 2D вместо 3D игнорируется одно из трех измерений. Объекты, специально предназначенные для 2D-подобных элементов пользовательского интерфейса, обычно имеют &lt;em&gt;Rect Transform&lt;/em&gt;, который является специализированным компонентом &lt;em&gt;Transform&lt;/em&gt; для 2D объектов.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -932,7 +932,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;Темный материал и всплывающее окно с выбором цвета&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Что за альбедо такое?&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что за альбедо такое?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Альбедо происходит от латинского слова белизна. Это просто цвет материала.&lt;/p&gt;
 
@@ -975,7 +975,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;Получившаяся иерархия&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;У меня значения координат равно 90,0000001. Это правильно?&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;У меня значения координат равно 90,0000001. Это правильно?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Это произошло потому что координаты, углы поворота и масштаб являются числами с плавающей точкой (float). Этот тип переменных имеет ограниченную точность, потому может вызвать незначительные отклонения, связанные с округлением. Переживать по этому поводу не стоит, поскольку отклонение 0,0000001 настолько мало что не оказывает никакого заметного влияния.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -990,7 +990,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;center&gt;Часовая стрелка&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Куда делась иконка с солнцем?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Куда делась иконка с солнцем?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Я переместил свет не много в сторону чтобы он больше не загромождал сцену. Directional Light освещается сцену равномерно независимо от его положения.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1045,7 +1045,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Этот код написан на языке C#. Это язык программирования используется в Unity для создания скриптов. Для того чтобы более подробно разобраться с тем как работает код, удалим все что нам сгенерировал Unity с начнем сначала.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;А что насчет JavaScript?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;А что насчет JavaScript?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Unity так же поддерживает другой язык программирования, обычно называемый JavaScript, но его фактическое название – UnityScript. Unity 2017.1.0 до сих пор поддерживает его, но в версии Unity 2017.2.0 из меню для добавления компонентов была убрана возможность создать JavaScript. Как бы можно точно сказать, что поддержка этого языка полностью прекращена в Unity.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1058,7 +1058,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое класс с технической точки зрения?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое класс с технической точки зрения?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Класс представляет собой шаблон, по которому определяется форма объекта. В нем указываются данные и код, который будет оперировать этими данными. В C# используется спецификация класса для построения объектов, которые являются экземплярами класса. Следовательно, класс, по существу, представляет собой ряд схематических описаний способа построения объекта. При этом очень важно подчеркнуть, что класс является логической абстракцией. Физическое представление класса появится в оперативной памяти лишь после того, как будет создан объект этого класса.&lt;/p&gt;
 
@@ -1072,7 +1072,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое модификатор доступа по умолчанию для классов?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое модификатор доступа по умолчанию для классов?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Если мы не проставим самостоятельно модификатор доступа, то будет выбран модификатор по умолчанию ` internal class Clock`. Это ограничивает доступ к коду из одной сборки, что становится актуальным при использовании кода, упакованного в несколько DLL файлов.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1091,7 +1091,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Это означает что мы не можем использовать этот скрипт для создания компонента в Unity. На данном этапе наш класс &lt;code class=&quot;highlighter-rouge&quot;&gt;Clock&lt;/code&gt; определяет универсальный тип объекта в C#. Для того чтобы наш компонент мог что-либо сделать (в данном случае нам нужно заставить стрелки часов вращаться) нужно реализовать методы, которые есть в классе &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что за MonoBehaviour?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что за &lt;code class=&quot;highlighter-rouge&quot;&gt;MonoBehaviour&lt;/code&gt;?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Идея заключается в том, что мы можем программировать наши собственные компоненты, чтобы добавить пользовательского &lt;strong&gt;поведения&lt;/strong&gt; (от англ. Behaviour) для наших игровых объектов. Приставка Mono была добавлена в следствии того что ранее Unity использовал проекты типа mono что является кроссплатформенным расширением файлов в .NET framework. Потому и MonoBehaviour. Это старое название, которое пришло к нам из первых версий Unity.  Узнать о Mono подробнее можно &lt;a href=&quot;https://ru.wikipedia.org/wiki/Mono&quot;&gt;тут&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1105,7 +1105,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;с&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Clock&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UnityEngine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MonoBehaviour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое пространство имен?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое пространство имен?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Пространство имен это как домен для сайта, но только в коде. Как домен может иметь субдомен, так и пространство имен может иметь подпространство имен. Большая проблема данной аналогии в том, что путь к сайту в программировании записывается наоборот. Вместо forum.unity3d.com мы имеем com.unity3d.forum. Код написанный разработчиками не нужно ниоткуда качать т.к. он сразу есть в Unity. Пространства имен используются для организации кода и предотвращения смешивания имен функции.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1135,7 +1135,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Куда делась строка с using?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Куда делась строка с &lt;code class=&quot;highlighter-rouge&quot;&gt;using&lt;/code&gt;?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Она все еще тут. Фрагменты кода, которые будут приведены будут содержать фрагменты, в которых что-либо изменилось. потому если вы части кода не видите, то значит он остается без изменений.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1151,7 +1151,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Transform&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hoursTransform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Разве публичные поля это не плохо?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Разве публичные поля это не плохо?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;В целом, консенсус заключается в том, чтобы избежать создания открытых полей при создании программ. Однако в Unity публичные поля нужны для того чтобы передать ссылку на элементы сцены, которые мы хотим каким-либо образом изменить. Можно обойтись и без публичных полей, но тогда вам придется изрядно с этим заморочиться и написать алгоритм, который рекурсивно проходит по всей иерархии и ищет ваши объекты по имени или тегам.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1184,7 +1184,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;span class=&quot;c1&quot;&gt;// public Transform secondsTransform;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что означает //?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что означает //?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Два слэша идущих друг за другом это комментирование. Весь текст которых находится на этой строчке после двух слэшей просто игнорируется компилятором. Используется это для того чтобы добавлять какой-либо текст, не являющийся кодом в файл с кодом. Комментарии нужны для того чтобы дать понять другим людям или вам самим что делает тот или иной блок кода. Не стоит комментировать каждую строчку кода, это только затруднит чтение.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1217,7 +1217,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Теперь у нас есть валидный метод, который ничего не делает. Как бы Unity увидит наши поля, которые прописаны выше, увидит &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; метод и сделает то что написано в &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt; скобках. Если в нашем скрипте присутствует метод &lt;code class=&quot;highlighter-rouge&quot;&gt;Awake&lt;/code&gt; и этот скрипт наследуется от ` MonoBehaviour`, то фрагмент кода написанный внутри этого метода выполняется сразу, как только компонент содержащий наш скрипт будет создан или загружен на сцену.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Почему у нашего метода Awake нет модификатора доступа?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Почему у нашего метода Awake нет модификатора доступа?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Метод Awake и набор некоторых других методов считаются особенными конкретно для Unity. Unity найдет и вызовет этот метод тогда, когда это будет нужно Unity. Мы не должны вызывать эти методы самостоятельно, Unity сам все поймет, распарсит и запустит помеченные нами методы именно в тот момент, в который нам надо.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1239,7 +1239,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое свойство?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое свойство?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Свойство – это метод, который притворяется полем. У свойств можно проставить свои модификаторы доступа, позволяющие только читать, только записывать или и читать, и записывать данные. Негласно программисты стараются избегать использования свойств, но в Unity не всегда следуют этому негласному правилу.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1249,7 +1249,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Для того чтобы получить доступ к системному времени компьютера, на котором мы работаем, мы можем использовать структуру &lt;code class=&quot;highlighter-rouge&quot;&gt;DateTime&lt;/code&gt;. Данная структура не относится к Unity и находится в пространстве имен &lt;code class=&quot;highlighter-rouge&quot;&gt;System&lt;/code&gt;. Эта структура является частью .Net framework.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое структура?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое структура?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Как вам должно быть уже известно, классы относятся к ссылочным типам данных. Это означает, что объекты конкретного класса доступны по ссылке, в отличие от значений простых типов, доступных непосредственно. Но иногда прямой доступ к объектам как к значениям простых типов оказывается полезно иметь, например, ради повышения эффективности программы. Ведь каждый доступ к объектам (даже самым мелким) по ссылке связан с дополнительными издержками на расход вычислительных ресурсов и оперативной памяти.&lt;/p&gt;
 
@@ -1288,7 +1288,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что такое кватернион?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что такое кватернион?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Кватернионы базируются на комплексных числах и используются для описания поворота объекта в 3D пространстве. Их труднее понять, чем простые 3D векторы, но они имею ряд полезных свойств. Например, они не будут повержены эффекту &lt;a href=&quot;https://ru.wikipedia.org/wiki/Складывание_рамок&quot;&gt;складывания рамок&lt;/a&gt;&lt;/p&gt;
 
@@ -1318,7 +1318,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;degreesPerHour&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Что особенного в константах?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Что особенного в константах?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Ключевое слово const обозначает что значение нашей переменной будет постоянно и его не нужно изменять. Как фундаментальные константы, которые существуют в реальном мире, такие как число Авогадро, постоянная Планка, число ПИ, число Эйлера и т.п. Особенность констант в том, что значение нашей константе присваивается в момент компиляции и не может быть изменено в процессы выполнения самой программы.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1455,7 +1455,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Где может быть объявлен метод Update?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Где может быть объявлен метод Update?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Внутри класса Clock. будет ли он расположен выше или ниже относительно других методов не имеет значения. Однако существует негласное правило, которое гласит что, каждый метод должен идти в порядке его выполнения. Это упрощает чтение и понимание ваше кода другими людьми. В нашем случае лучше всего расположить метод Update в самом верху, после него расположить метод UpdateContinuous, а после UpdateDiscrete, в соответствии с порядком вызова, который мы указали в методе Update.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1478,7 +1478,7 @@ i  &lt; 10 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 &lt;p&gt;Кажется, что на этом все, но если мы сохраним наши изменения и вернемся в окно редактора, то увидим в консоли ошибку компиляции. Произошло это потому что наши значения аргументов имеют тип &lt;em&gt;double&lt;/em&gt;. Это тот же самый тип &lt;em&gt;float&lt;/em&gt; только хранить он в себе может в 2 раза больше значащих цифр после запятой. Ну и что? – Скажете вы. А дело все в том, что Unity работает только с типом &lt;em&gt;float&lt;/em&gt; и нам придется под это подстроиться.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;А достаточно ли точности в этом типе?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;А достаточно ли точности в этом типе?&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Для большинства игр да. Проблемы начинают возникать тогда, когда вы начнете работать с очень большими рассеяниями или масштабами. Когда настанет такой момента, вам придется применять такие трюки как телепортация, чтобы сохранить локальную игровую зону в глобальных координатах. Хотя использование двойной точности решить эту проблему, это так же удвоит размер потребляемой памяти, что приведет к другим проблемам связанные с производительностью. Следовательно, лучше использовать float и прикручивать костыли по мере необходимости, нежели постоянно иметь проблему с производительностью.&lt;/p&gt;
 &lt;/blockquote&gt;
