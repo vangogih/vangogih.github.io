@@ -26,19 +26,19 @@
 1. gunfire
 2. knight
 
-![_gunfire_](\chivalryTest\_images\gunfire.png)
+[gunfire](\chivalryTest\_images\gunfire.png)
 
-![_knight_](\chivalryTest\_images\knight.png)
+[knight](\chivalryTest\_images\knight.png)
 
 Не забывайте! Имена бандлов соответствуют именам префабов.
 
 Вот так в итоге выглядит конечный каталог. Можно посмотреть [ТУТ]
 
-![_dirStructure_](\chivalryTest\_images\dirStructure.png)
+[dirStructure](\chivalryTest\_images\dirStructure.png)
 
 Вот так должен выглядель database на сайте вуфории.
 
-![_vuforiaDatabase_](\chivalryTest\_images\vuforiaDatabase.png)
+[vuforiaDatabase](\chivalryTest\_images\vuforiaDatabase.png)
 
 
-[ТУТ] : /chivalryTest/3dmodels
+[ТУТ]:/chivalryTest/3dmodels
