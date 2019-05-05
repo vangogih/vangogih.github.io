@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 185562130
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d9999cf306d275a96e4b1e9d3d93f61
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e631bf55ff063c7abf1940617aefe587
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/gunfire.prefab
+Dependencies: []

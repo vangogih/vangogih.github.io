@@ -1,0 +1,4 @@
+{
+"models" : ["3dmodels/gunfire/ab","3dmodels/knight/ab"],
+"markers" : {"xml": "markers/knight.dat", "dat" : "markers/knight.xml"}
+}
