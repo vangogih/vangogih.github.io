@@ -17,6 +17,14 @@
 - Имя марки для модели == имени префаба
 - В папке с именем префаба должно лежать два файла: ab и ab.manifest
 
+Соответственно сам JSON выглядит так:
+
+```
+{
+"models" : ["3dmodels/gunfire/ab","3dmodels/knight/ab"],
+"markers" : {"xml": "markers/knight.xml", "dat" : "markers/knight.dat"}
+}
+```
 _ _ _
 
 
