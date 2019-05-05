@@ -17,7 +17,8 @@
 - Имя марки для модели == имени префаба
 - В папке с именем префаба должно лежать два файла: ab и ab.manifest
 
---
+_ _ _
+
 
 Для самых маленьких и глупых (только не показывайте это менеджерам) просто приложу скриншоты того, как это должно выглядеть.
 
@@ -26,19 +27,19 @@
 1. gunfire
 2. knight
 
-[gunfire](\chivalryTest\_images\gunfire.png)
+![gunfire](/chivalryTest/images/gunfire.png)
 
-[knight](\chivalryTest\_images\knight.png)
+![knight](/chivalryTest/images/knight.png)
 
 Не забывайте! Имена бандлов соответствуют именам префабов.
 
 Вот так в итоге выглядит конечный каталог. Можно посмотреть [ТУТ]
 
-[dirStructure](\chivalryTest\_images\dirStructure.png)
+![dirStructure](/chivalryTest/images/dirStructure.png)
 
 Вот так должен выглядель database на сайте вуфории.
 
-[vuforiaDatabase](\chivalryTest\_images\vuforiaDatabase.png)
+![vuforiaDatabase](/chivalryTest/images/vuforiaDatabase.png)
 
 
 [ТУТ]:/chivalryTest/3dmodels
