@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="music" size="0.100000 0.100000" />
+    <ImageTarget name="lantern" size="0.100000 0.100000" />
+    <ImageTarget name="horse_knight" size="0.200000 0.200000" />
+    <ImageTarget name="heart" size="0.100000 0.100000" />
+    <ImageTarget name="fontain" size="0.100000 0.100000" />
+    <ImageTarget name="flower" size="0.100000 0.100000" />
+    <ImageTarget name="butterfly" size="0.100000 0.100000" />
+  </Tracking>
+</QCARConfig>

@@ -1,4 +1,4 @@
 {
-"models" : ["3dmodels/gunfire/ab","3dmodels/knight/ab", "3dmodels/diman/ab"],
-"markers" : {"xml": "markers/knight.xml", "dat" : "markers/knight.dat"}
+"models" : ["3dmodels/gunfire/ab","3dmodels/heart/ab", "3dmodels/horse_knight/ab", "3dmodels/tiger/ab"],
+"markers" : {"xml": "markers/alphaKnight.xml", "dat" : "markers/alphaKnight.dat"}
 }

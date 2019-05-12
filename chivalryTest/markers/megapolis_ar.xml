@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="cylindric_postament" sideLength="10.000000"/>
+        <ImageTarget name="window4" size="1.000000 0.435937"/>
+        <ImageTarget name="window3" size="1.000000 0.435937"/>
+        <ImageTarget name="window2" size="1.000000 0.435937"/>
+        <ImageTarget name="window1" size="1.000000 0.435937"/>
+        <ImageTarget name="photo_zone" size="1.000000 0.672112"/>
+        <ImageTarget name="windows_target_4" size="1.000000 1.000000"/>
+        <ImageTarget name="windows_target_3" size="1.000000 1.000000"/>
+        <ImageTarget name="windows_target_2" size="1.000000 1.000000"/>
+        <ImageTarget name="windows_target_1" size="1.000000 1.000000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Right" size="3.000000 0.400000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Front" size="3.000000 0.400000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Back" size="3.000000 0.400000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Left" size="3.000000 0.400000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Bottom" size="3.000000 3.000000"/>
+        <ImageTarget name="megapolis_cuboid_postament.Top" size="3.000000 3.000000"/>
+        <MultiTarget name="megapolis_cuboid_postament">
+            <Part name="megapolis_cuboid_postament.Left" translation="-1.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="megapolis_cuboid_postament.Right" translation="1.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="megapolis_cuboid_postament.Front" translation="0 0 1.5" rotation="AD: 1 0 0 0"/>
+            <Part name="megapolis_cuboid_postament.Back" translation="0 0 -1.5" rotation="AD: 0 1 0 180"/>
+            <Part name="megapolis_cuboid_postament.Top" translation="0 0.20000000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="megapolis_cuboid_postament.Bottom" translation="0 -0.20000000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

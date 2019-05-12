@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2278926018
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6272ad6d16cc352624c5f5c74203cedc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 621c09d9b315d0c0da566fbcb41fc8b8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaba6ac314039ae4b97f91c878ecae2c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Chivarly/Prefabs/tiger.prefab
+Dependencies: []

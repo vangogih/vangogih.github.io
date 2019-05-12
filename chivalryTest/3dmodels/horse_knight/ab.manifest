@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1943166673
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0a7c8a16468907d723fd90bc425027c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 257c597b6f7842365db473bd70ffbb06
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaba6ac314039ae4b97f91c878ecae2c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Chivarly/Prefabs/horse_knight.prefab
+Dependencies: []

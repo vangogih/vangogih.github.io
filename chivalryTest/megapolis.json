@@ -1,0 +1,4 @@
+{
+"models" : ["3dmodels/window1/ab","3dmodels/window2/ab","3dmodels/window3/ab","3dmodels/window4/ab", "3dmodels/megapolis_cuboid_postament/ab"],
+"markers" : {"xml": "markers/megapolis_ar.xml", "dat" : "markers/megapolis_ar.dat"}
+}

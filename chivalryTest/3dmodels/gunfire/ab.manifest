@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 185562130
+CRC: 413943256
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2d9999cf306d275a96e4b1e9d3d93f61
+    Hash: 3a97f5a8715a2fb5b1403c46da6e2ce3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e631bf55ff063c7abf1940617aefe587
+    Hash: 8b246ba7eacb66cc43d6019f2929c93e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,8 +33,12 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaba6ac314039ae4b97f91c878ecae2c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/gunfire.prefab
+- Assets/Chivarly/Prefabs/gunfire.prefab
 Dependencies: []
