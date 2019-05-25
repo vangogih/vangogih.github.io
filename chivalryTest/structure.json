@@ -1,14 +1,4 @@
 {
-"models" : [
-	"3dmodels/heart/ab",
-    "3dmodels/lantern/ab",
-    "3dmodels/fontain/ab",
-    "3dmodels/icecream/ab",
-    "3dmodels/flower/ab",
-    "3dmodels/music/ab",
-    "3dmodels/hellicopter/ab",
-    "3dmodels/harp/ab",
-    "3dmodels/butterfly/ab",
-    "3dmodels/horse_knight/ab"],
+"models" : ["3dmodels/heart/ab","3dmodels/lantern/ab","3dmodels/fontain/ab","3dmodels/icecream/ab","3dmodels/flower/ab","3dmodels/music/ab","3dmodels/hellicopter/ab","3dmodels/harp/ab","3dmodels/butterfly/ab","3dmodels/horse_knight/ab"],
 "markers" : {"xml": "markers/alphaKnight.xml", "dat" : "markers/alphaKnight.dat"}
 }
