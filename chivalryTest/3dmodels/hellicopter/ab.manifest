@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2964155000
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b27e009197df09635bf3f3baf5bd257d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b86433b482c6caf1893262331c40a71
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaba6ac314039ae4b97f91c878ecae2c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Chivarly/Prefabs/Models/hellicopter.prefab
+Dependencies: []

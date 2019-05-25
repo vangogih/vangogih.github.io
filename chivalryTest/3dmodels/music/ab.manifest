@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1025609780
+CRC: 2703960589
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1e7a5c8550854e1b74ba92d7ae4da15d
+    Hash: 0d4786148dd6ad5d9e3a30f0aa6e686e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 621c09d9b315d0c0da566fbcb41fc8b8
+    Hash: 94f71e50eb4cd8fa47947e46966241d7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -15,17 +15,17 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 33
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
 - Class: 90
+  Script: {instanceID: 0}
+- Class: 91
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
@@ -33,6 +33,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: aaba6ac314039ae4b97f91c878ecae2c, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
 Assets:
-- Assets/Chivarly/Prefabs/music.prefab
+- Assets/Chivarly/Prefabs/Models/music.prefab
 Dependencies: []

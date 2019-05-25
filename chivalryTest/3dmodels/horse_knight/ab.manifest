@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 438653351
+CRC: 373136379
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 517b2624cc2c80d955164f5d8d250f05
+    Hash: 48081187c4d1501e44d189ce85c3a22f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8b246ba7eacb66cc43d6019f2929c93e
+    Hash: 4dd3d6f520a7ce05339bec6d8fb24699
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,5 +40,5 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/Chivarly/Prefabs/horse_knight.prefab
+- Assets/Chivarly/Prefabs/Models/horse_knight.prefab
 Dependencies: []

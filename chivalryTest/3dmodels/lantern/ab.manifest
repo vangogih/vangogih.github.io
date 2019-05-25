@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3251461251
+CRC: 3002108768
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d022a1a7692069259dff9a0ca2508126
+    Hash: 860b693d0198b46f3f1bfe8dc32be07d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8b246ba7eacb66cc43d6019f2929c93e
+    Hash: 94f71e50eb4cd8fa47947e46966241d7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -15,11 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 33
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
@@ -40,5 +36,5 @@ ClassTypes:
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/Chivarly/Prefabs/lantern.prefab
+- Assets/Chivarly/Prefabs/Models/lantern.prefab
 Dependencies: []
