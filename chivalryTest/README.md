@@ -1,4 +1,4 @@
-# Некоторые допущения.
+# Некоторые допущения 
 
 Не много предисловия. Ввиду того что я использую для погрузки моделей Asset Bundles (бандлы), а потом эти самые бандлы связываю на клиенте с маркерами, есть несколько правил, чтобы на клиенте ничего не сломалось. Да я понимаю, что это не самое лучшее решение, которое можно реализовать, но к сожалению, пока только так. К счастью правила не такие жесткие и соблюсти их довольно легко т.к. касаются они только имен и структур папок.
 
@@ -17,12 +17,21 @@
 - Имя марки для модели == имени префаба
 - В папке с именем префаба должно лежать два файла: ab и ab.manifest
 
-Соответственно сам JSON выглядит так:
+JSON (Vuforia) выглядит так:
 
 ```
 {
 "models" : ["3dmodels/gunfire/ab","3dmodels/knight/ab"],
 "markers" : {"xml": "markers/knight.xml", "dat" : "markers/knight.dat"}
+}
+```
+
+JSON (Maxst) выглядит так, разница лишь в том, что в этом фреймворке конечные маркеры выглядят как файлы с расширением .2dmap. Соответственно качать нужно их все:
+
+```
+{
+"models" : ["3dmodels/heart/ab","3dmodels/lantern/ab","3dmodels/fontain/ab","3dmodels/icecream/ab","3dmodels/flower/ab","3dmodels/music/ab","3dmodels/hellicopter/ab","3dmodels/harp/ab","3dmodels/butterfly/ab","3dmodels/horse_knight/ab"],
+"markers" : ["markers/butterfly.2dmap","markers/flower.2dmap","markers/fontain.2dmap","markers/harp.2dmap","markers/heart.2dmap","markers/hellicopter.2dmap","markers/horse_knight.2dmap","markers/icecream.2dmap", "markers/lantern.2dmap", "markers/music.2dmap"]
 }
 ```
 _ _ _

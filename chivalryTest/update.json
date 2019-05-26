@@ -1,0 +1,4 @@
+{
+"models" : ["3dmodels/heart/ab","3dmodels/lantern/ab","3dmodels/fontain/ab","3dmodels/icecream/ab","3dmodels/flower/ab","3dmodels/music/ab","3dmodels/hellicopter/ab","3dmodels/harp/ab","3dmodels/butterfly/ab","3dmodels/horse_knight/ab"],
+"markers" : ["markers/butterfly.2dmap","markers/flower.2dmap","markers/fontain.2dmap","markers/harp.2dmap","markers/heart.2dmap","markers/hellicopter.2dmap","markers/horse_knight.2dmap","markers/icecream.2dmap", "markers/lantern.2dmap", "markers/music.2dmap"]
+}
